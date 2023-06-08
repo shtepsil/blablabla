@@ -1,0 +1,320 @@
+@import '../interface/text.inc.less';
+//Текст
+
+.gTitle {
+  font: bold 3.6em/1em @f_pn;
+  color: @dark;
+  text-align: center;
+  &.wLinks {
+    display: inline-block;
+    span {
+      margin-right: 20px;
+    }
+    a {
+      display: inline-block;
+      padding-bottom: 20px;
+      span {
+        font: 1.6rem/1.5em @f_pn;
+        color: @blue;
+        border-bottom: 1px solid @blue;
+      }
+    }
+    .btn_Form.blue {
+      padding: 8px 22px;
+      vertical-align: middle;
+    }
+  }
+}
+
+.preTitle {
+  font: 1.8em/1.11em @f_pn;
+  color: @preTitle_color;
+  text-align: center;
+  padding-top: 18px;
+}
+
+.aTitle, .altTitle {
+  font: bold 3em/.67em @f_pn;
+  color: @dark;
+  padding-bottom: 50px;
+  a {
+    display: inline-block;
+    float: right;
+    font-size: .67em;
+    font-weight: normal;
+    color: @blue;
+    span {
+      line-height: 1em;
+      border-bottom: 1px solid @blue;
+    }
+  }
+}
+.altTitle {
+  font-size: 2.4em;
+}
+
+h1, .bTitle {
+  padding-top: 34px;
+  padding-bottom: 18px;
+  font: bold 3.6em/1em @f_pn;
+  color: @h1;
+}
+
+.gTitle_line {
+  .clear;
+  .gTitle {
+    float: left;
+    margin-right: 40px;
+  }
+  .right_line {
+    display: block;
+    padding-top: 17px;
+    .clear;
+    .delivered {
+      font: 1.6em/.83em @f_pn;
+      color: @grey_light;
+      float: left;
+    }
+    .dlc_links {
+      float: right;
+      white-space: nowrap;
+      .reorder, .print {
+        display: inline-block;
+        span {
+          font: 1.6em/1em @f_pn;
+          color: @blue;
+          border-bottom: 1px solid @blue_lite_underline;
+        }
+      }
+      .reorder {
+        margin-right: 30px;
+      }
+      .print {
+        padding-left: 25px;
+        position: relative;
+        &:before {
+          position: absolute;
+          z-index: 9;
+          top: 0;
+          left: 0;
+          display: block;
+          content: '';
+          width: 20px;
+          height: 20px;
+          .backgroundProp(@image: '../images/icons/icon_print.png', @size: contain);
+        }
+      }
+    }
+  }
+}
+
+.TextContent {
+  h1 {
+    padding-bottom: 28px;
+  }
+  .Title, h2 {
+    font: bold 3rem/1em @f_pn;
+    color: @black;
+    padding-bottom: 10px;
+  }
+  .textInterface {
+    font: 1.8em/1.33em @f_pn;
+    color: @black;
+    p {
+      margin-bottom: 25px;
+    }
+  }
+  ol {
+    display: block;
+    counter-reset: li;
+    li {
+      padding-bottom: 30px;
+      padding-left: 50px;
+      position: relative;
+      counter-increment: li;
+      &:before {
+        display: block;
+        width: 40px;
+        height: 40px;
+        background-color: @ol_li_bg_color;
+        content: counter(li);
+        position: absolute;
+        z-index: 9;
+        top: 0;
+        left: 0;
+        font: bold 2.4rem/1em @f_pn;
+        color: @white;
+        text-align: center;
+        padding-top: 7px;
+        .box-sizing;
+        .border-radius(20px);
+      }
+    }
+  }
+}
+
+
+@media all and (max-width: 999px) {
+  .gTitle {
+    font-size: 4.8em;
+      &.wLinks {
+        a {
+          span {
+            font-size: 2.6rem;
+          }
+        }
+      }
+  }
+  .aTitle, .altTitle {
+    font-size: 4em;
+  }
+  .gTitle_line {
+    .gTitle {
+      margin-right: 0;
+      float: none;
+    }
+    .right_line {
+      padding-top: 0;
+      padding-bottom: 30px;
+      .delivered {
+        font-size: 2.6em;
+      }
+      .dlc_links {
+        .reorder, .print {
+          span {
+            font-size: 2.6em;
+          }
+        }
+      }
+    }
+  }
+  .TextContent {
+    .Title, h2 {
+      font-size: 4rem;
+    }
+    .textInterface {
+      font-size: 2.4em;
+    }
+    ol {
+      li {
+        padding-left: 95px;
+        &:before {
+          width: 80px;
+          height: 80px;
+          font-size: 4rem;
+          padding-top: 20px;
+          .border-radius(40px);
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 767px) {
+  .gTitle {
+    font-size: 4em;
+    &.wLinks {
+      a {
+        span {
+          font-size: 2.4rem;
+        }
+      }
+    }
+  }
+  .aTitle, .altTitle {
+    font-size: 3em;
+    a {
+      margin-top: 15px;
+      float: none;
+      width: 100%;
+    }
+  }
+  .gTitle_line {
+    .right_line {
+      padding-bottom: 20px;
+      .delivered {
+        width: 100%;
+        float: none;
+        padding-bottom: 10px;
+        font-size: 2.4em;
+      }
+      .dlc_links {
+        width: 100%;
+        float: none;
+        .reorder, .print {
+          span {
+            font-size: 2.4em;
+          }
+        }
+      }
+    }
+  }
+  .TextContent {
+    .Title, h2 {
+      font-size: 3rem;
+    }
+    .textInterface {
+      font-size: 1.8em;
+    }
+  }
+}
+
+@media all and (max-width: 479px) {
+  h1, .gTitle {
+    font-size: 2.4em;
+    &.wLinks {
+      a {
+        span {
+          font-size: 1.8rem;
+        }
+      }
+    }
+  }
+  .aTitle, .altTitle {
+    font-size: 1.8em;
+    padding-bottom: 20px;
+  }
+  .gTitle_line {
+    .right_line {
+      .delivered {
+        font-size: 1.6em;
+      }
+      .dlc_links {
+        .reorder, .print {
+          span {
+            font-size: 1.6em;
+          }
+        }
+      }
+    }
+  }
+  .TextContent {
+    .Title, h2 {
+      font-size: 1.8rem;
+    }
+    .textInterface {
+      font-size: 1.8em;
+    }
+    ol {
+      li {
+        padding-left: 50px;
+        &:before {
+          width: 40px;
+          height: 40px;
+          font-size: 2.4rem;
+          padding-top: 7px;
+          .border-radius(20px);
+        }
+      }
+    }
+  }
+}
+
+
+.textInterface {
+  font: 1.6em/1.5em "Proxima Nova",sans-serif;
+  color: #000;
+  @media all and (max-width: 999px) and (min-width: 767px) {
+    font-size: 2.4rem;
+  }
+}

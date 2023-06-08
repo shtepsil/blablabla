@@ -1,0 +1,494 @@
+.Cabinet {
+  padding-top: 44px;
+  padding-bottom: 44px;
+  .gTitle {
+    text-align: left;
+    padding: 0 0 20px !important;
+  }
+  .cDescription {
+    font: 1.6em/1.25em @f_pn;
+    color: @dark;
+
+    p {
+      margin-bottom: 30px;
+    }
+  }
+  .additionalInformation {
+    width: 100%;
+    padding-top: 25px;
+    .clear;
+    .block_inf {
+      width: 50%;
+      min-width: 220px;
+      padding-right: 20px;
+      display: block;
+      float: left;
+      margin-bottom: 15px;
+      .title {
+        font: bold 2.4em/2em @f_pn;
+        color: @dark;
+      }
+      .text {
+        font: 1.6em/1.5em @f_pn;
+        color: @dark;
+      }
+    }
+  }
+
+  .listAddress {
+    display: block;
+    width: 100%;
+    .clear;
+    .blockAddress {
+      padding-bottom: 30px;
+      .title {
+        font: bold 2.4em/1em @f_pn;
+        color: @dark;
+        padding-bottom: 8px;
+        span {
+          margin-right: 20px;
+        }
+        a {
+          font: .67em/1em @f_pn;
+          color: @blue;
+          border-bottom: 1px solid @blue;
+        }
+      }
+      .text {
+        font: 1.6em/1.5em @f_pn;
+        color: @dark;
+      }
+    }
+  }
+  .bonusesPosition {
+    margin-top: 40px;
+  }
+}
+
+.managerPosition {
+  display: block;
+  width: 100%;
+  background-color: @managerPosition_bg_color;
+  .managerPosition_wrapper {
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .closePosition {
+    position: absolute;
+    z-index: 9;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: block;
+    width: 14px;
+    height: 14px;
+    .backgroundProp(@image: '../images/icons/icon_position_close.png', @size: contain);
+  }
+  .blockManager {
+    display: block;
+    width: 100%;
+    .clear;
+    .avatar {
+      display: block;
+      width: 60px;
+      height: 60px;
+      float: left;
+      .backgroundProp(@size: contain);
+    }
+    .description {
+      padding-left: 70px;
+      .name {
+        font: bold 1.6em/1.25em @f_pn;
+        color: @dark;
+      }
+      .who {
+        font: 1.4em/1.43em @f_pn;
+        color: @grey_light;
+      }
+      .cont {
+        font: 1.5em/1.33em @f_pn;
+        color: @black;
+        a {
+          color: @blue;
+          border-bottom: 1px solid @blue;
+          margin-right: 5px;
+          white-space: nowrap;
+        }
+        b {
+          white-space: nowrap;
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
+
+.bonusesPosition {
+  display: table;
+  background-color: @bonusesPosition_bg_color;
+  border: 1px solid @border_color_grey;
+  padding: 15px 49px 14px 12px;
+  .border-radius(3px);
+  .title {
+    font: 1.6em/1.25em @f_pn;
+    color: @dark;
+  }
+  .bon_line {
+    width: 100%;
+    white-space: nowrap;
+    padding-top: 10px;
+    .clear;
+    .icon, .num, .btn_Form {
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 6px;
+      margin-bottom: 15px;
+    }
+    .icon {
+      width: 38px;
+      height: 38px;
+      .backgroundProp(@image: '../images/icons/icon_bonuses.png', @size: contain);
+    }
+    .num {
+      font: bold 3.6em/.56em @f_pn;
+      color: @dark;
+    }
+    .btn_Form {
+      font-size: 1.6em;
+      margin-right: 0;
+    }
+  }
+}
+
+.CabinetDuo {
+  width: 100%;
+  .clear;
+  .Core1 {
+    display: block;
+    width: 228px;
+    float:left;
+  }
+  .Core2 {
+    padding-left: 243px;
+  }
+  ul.priceList {
+    display: block;
+    width: 100%;
+    border: 1px solid @border_color_grey;
+    padding: 15px 5px;
+    .border-radius(4px);
+    .clear;
+    >li {
+      font: 1.6em/1.5em @f_pn;
+      padding-bottom: 18px;
+      >span {
+        display: table;
+        color: @dark;
+        padding-left: 9px;
+        padding-right: 9px;
+      }
+      >a {
+        display: table;
+        color: @blue;
+        padding-left: 9px;
+        padding-right: 9px;
+      }
+      >span, >a {
+        font-weight: bold;
+      }
+      >ul {
+        display: block;
+        width: 100%;
+        .clear;
+        >li {
+          &.current {
+            a {
+              color: @black;
+              cursor: default;
+              background-color: @priceList_li_ul_li_active_bg_color;
+              .border-radius(10px);
+            }
+          }
+          >a {
+            display: table;
+            color: @blue;
+            padding-left: 9px;
+            padding-right: 9px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 999px) {
+  .Cabinet {
+    .listAddress {
+      .blockAddress {
+        .title {
+          font-size: 4em;
+        }
+        .text {
+          font-size: 2.6em;
+        }
+      }
+    }
+  }
+  .bonusesPosition {
+    width: 100%;
+    padding: 5px 12px 14px;
+    .title {
+      font-size: 2.6em;
+    }
+    .bon_line {
+      .icon {
+        width: 50px;
+        height: 50px;
+        margin-right: 15px;
+      }
+      .num {
+        font-size: 4.8em;
+      }
+      .btn_Form {
+        font-size: 3em;
+        padding: 16px 27px 20px 30px;
+        .border-radius(34px);
+      }
+    }
+  }
+
+  .CabinetDuo {
+    .Core1 {
+      width: auto;
+      margin-left: -20px;
+      margin-right: -20px;
+      float:none;
+    }
+    .Core2 {
+      padding-left: 0;
+      display: none;
+    }
+    ul.priceList {
+      border: 0;
+      padding: 0;
+      .border-radius(none);
+      &.opening {
+        >li {
+          >a, >span {
+            color: @blue_dark;
+            .transition;
+          }
+        }
+      }
+      >li {
+        font: 3em/1.5em @f_pn;
+        padding-bottom: 0;
+        border-bottom: 1px solid @goodsPosition_image_border;
+        &.open {
+          span, a {
+            &:after {
+              margin-top: -12px;
+              right: 53px;
+              .transformProp(rotate(90deg));
+            }
+          }
+          >ul {
+            display: block;
+          }
+        }
+        &:first-child {
+          border-top: 1px solid @goodsPosition_image_border;
+        }
+        >span {
+          display: table;
+          color: @blue;
+          padding-left: 0;
+          padding-right: 0;
+        }
+        >a {
+          display: table;
+          color: @blue;
+          padding-left: 0;
+          padding-right: 0;
+        }
+        >span, >a {
+          width: 100%;
+          font-weight: normal;
+          padding: 27px 49px;
+          cursor: pointer;
+          position: relative;
+          .transition;
+          &:after {
+            position: absolute;
+            z-index: 9;
+            top: 50%;
+            margin-top: -12px;
+            right: 53px;
+            display: block;
+            font-size: 1px;
+            width: 15px;
+            height: 24px;
+            content: '';
+            .backgroundProp(@image: '../images/icons/icon_arrow_right.png', @size: contain);
+          }
+        }
+        >ul {
+          display: none;
+          padding-bottom: 20px;
+          >li {
+            &.current {
+              a {
+                color: @blue;
+                cursor: pointer;
+                background: none;
+                .border-radius(none);
+              }
+            }
+            >a {
+              display: table;
+              color: @blue;
+              padding: 5px 49px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 767px) {
+  .Cabinet {
+    .listAddress {
+      .blockAddress {
+        .title {
+          font-size: 3em;
+        }
+        .text {
+          font-size: 2.4em;
+        }
+      }
+    }
+  }
+  .bonusesPosition {
+    padding: 13px 30px 14px 20px;
+    .title {
+      font-size: 2.4em;
+    }
+    .bon_line {
+      white-space: normal;
+      .icon {
+        width: 42px;
+        height: 42px;
+      }
+      .num {
+        font-size: 4em;
+        margin-right: 15px;
+      }
+      .btn_Form {
+        font-size: 2.4em;
+        padding: 14px 27px 15px 30px;
+      }
+    }
+  }
+
+  .CabinetDuo {
+    ul.priceList {
+      >li {
+        font: 2.4em/1.5em @f_pn;
+        &.open {
+          >a, >span {
+            &:after {
+              margin-top: -10px;
+              right: 40px;
+            }
+          }
+        }
+        >a, >span {
+          padding: 19px 45px;
+          &:after {
+            margin-top: -10px;
+            right: 40px;
+          }
+        }
+        >ul {
+          >li {
+            a, span {
+              padding-right: 45px;
+              padding-left: 45px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 479px) {
+  .Cabinet {
+    .listAddress {
+      .blockAddress {
+        .title {
+          font-size: 1.8em;
+        }
+        .text {
+          font-size: 1.6em;
+        }
+      }
+    }
+  }
+  .bonusesPosition {
+    padding: 13px 19px 14px 12px;
+    .title {
+      font-size: 1.6em;
+    }
+    .bon_line {
+      .icon {
+        width: 38px;
+        height: 38px;
+      }
+      .num {
+        font-size: 3.6em;
+        margin-right: 15px;
+      }
+      .btn_Form {
+        font-size: 1.4em;
+        padding: 8px 22px;
+        .border-radius(20px);
+      }
+    }
+  }
+
+  .CabinetDuo {
+    ul.priceList {
+      >li {
+        font: 1.6em/1.5em @f_pn;
+        &.open {
+          >a, >span {
+            &:after {
+              margin-top: -10px;
+              right: 15px;
+            }
+          }
+        }
+        >a, >span {
+          padding: 7px 15px;
+          &:after {
+            width: 11px;
+            height: 19px;
+            margin-top: -10px;
+            right: 15px;
+          }
+        }
+        >ul {
+          >li {
+            a, span {
+              padding-right: 15px;
+              padding-left: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

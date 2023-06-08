@@ -1,0 +1,4 @@
+[07-Apr-2016 12:36:29] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/chikitak/public_html/corp/backend/web/index.php on line 10
+[07-Apr-2016 12:36:29] PHP Parse error:  syntax error, unexpected T_STRING in /home/chikitak/public_html/corp/backend/web/index.php on line 10
+[07-Apr-2016 12:39:27] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/chikitak/public_html/corp/backend/web/index.php on line 10
+[07-Apr-2016 12:39:27] PHP Parse error:  syntax error, unexpected T_STRING in /home/chikitak/public_html/corp/backend/web/index.php on line 10

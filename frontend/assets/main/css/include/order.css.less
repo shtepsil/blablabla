@@ -1,0 +1,102 @@
+.Order {
+  h1.title {
+    padding-bottom: 30px;
+  }
+  .adpTable {
+    &.order {
+      margin-bottom: 40px;
+    }
+  }
+  .orResult {
+    padding-bottom: 5px;
+    border: 1px solid @border_color_grey;
+    .border-radius(3px);
+    .orRtop {
+      background-color: @table_tr_bg_color;
+      padding: 22px 0 22px 12px;
+      input[type=checkbox] + label {
+        font-size: 1.6em;
+        line-height: 1.3em;
+        color: @dark;
+        padding-left: 30px;
+        padding-bottom: 0;
+        &:before {
+          left: 0;
+        }
+      }
+    }
+    .string {
+      margin-bottom: 10px;
+      padding: 15px 80px 0 12px;
+      label, i {
+        display: block;
+        font: 1.6em/1.5em @f_pn;
+        color: @dark;
+      }
+      label {
+        float: left;
+      }
+      i {
+        float: right;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 999px) {
+  .Order {
+    .orResult {
+      .orRtop {
+        input[type=checkbox] + label {
+          font-size: 2.6em;
+          &:before {
+            width: 20px;
+            height: 20px;
+            top: 6px;
+          }
+        }
+      }
+      .string {
+        label, i {
+          font-size: 2.6em;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 767px) {
+  .Order {
+    .orResult {
+      .orRtop {
+        input[type=checkbox] + label {
+          font-size: 2.4em;
+        }
+      }
+      .string {
+        padding-right: 20px;
+        label, i {
+          font-size: 2.4em;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 479px) {
+  .Order {
+    .orResult {
+      padding-right: 12px;
+      .orRtop {
+        input[type=checkbox] + label {
+          font-size: 1.6em;
+        }
+      }
+      .string {
+        label, i {
+          font-size: 1.6em;
+        }
+      }
+    }
+  }
+}

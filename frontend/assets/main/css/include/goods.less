@@ -1,0 +1,170 @@
+.Goods {
+    .clear;
+    &.goodslist {
+        h1 {
+          padding-top: 34px;
+          padding-bottom: 18px;
+          font: bold 3.6em/1em @f_pn;
+          color: @h1;
+        }
+        .goodsBlocks {
+          display: block;
+          .clear;
+          .goodsBlock {
+            display: block;
+            float: left;
+            width: 25%;
+          }
+        }
+    }
+}
+
+//Фильтры
+
+.Filter {
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid @filter_border;
+    .clear;
+    &.line {
+        ul.list, ul.sort {
+          display: block;
+          padding-bottom: 5px;
+          .clear;
+          li {
+            display: block;
+            float: left;
+            font: 1.6em/1.5em @f_pn;
+            color: @black;
+            margin-right: 15px;
+            &:last-child {
+              margin-right: 0;
+            }
+            a {
+              color: @blue;
+              border-bottom: 1px dotted @blue;
+            }
+          }
+        }
+        ul.sort {
+            li {
+              &.byName {
+                padding-right: 14px;
+                position: relative;
+                  &:after {
+                    position: absolute;
+                    z-index: 9;
+                    top: 0;
+                    right: 0;
+                    content: url(../images/icons/icon_sort_by_name.png);
+                  }
+              }
+            }
+        }
+    }
+}
+
+//Товар
+
+.goodsBlock {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 40px;
+  display: block;
+  &:hover {
+    .dynamicBlock {display: block;}
+  }
+  &.isNone {
+    &:hover {
+      .dynamicBlock {
+        display: none;
+      }
+    }
+  }
+  .image {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 8px;
+    .backgroundProp(@size: cover);
+    &:before {
+      display: block;
+      content: '';
+      margin-top: 85.71428571428571%;
+    }
+  }
+  .wrapperPad {
+    display: block;
+    padding: 0 15px;
+  }
+  .title {
+    display: block;
+    font: bold 1.8em/1.11em @f_pn;
+    color: @dark;
+  }
+  .pricePosition {
+    display: block;
+    border-top: 1px solid @border_color_grey;
+    margin-top: 30px;
+    padding: 15px 0;
+    width: 100%;
+    .clear;
+    .text {
+      width: 50%;
+      float: left;
+    }
+    .text, .price .old {
+      display: block;
+      font: 1.5em/1.33em @f_pn;
+      color: @grey_light;
+    }
+    .price {
+      text-align: left;
+      float: right;
+      .new {
+        display: block;
+        font: bold 2em/1em @f_pn;
+        color: @color_price;
+        text-transform: uppercase;
+      }
+      .old {
+        text-decoration: line-through;
+      }
+    }
+  }
+  .dynamicBlock {
+    display: none;
+    position: absolute;
+    z-index: 9;
+    bottom: 41px;
+    left: 0;
+
+    width: 100%;
+    height: 38px;
+    .btn_addToCart, .btn_buyToClick {
+      display: block;
+      font: 1.4em/1.43em @f_pn;
+      color: @white;
+      padding: 9px 15px 7px;
+    }
+    .btn_addToCart {
+      float: left;
+      background-color: @btn_background_blue;
+    }
+    .btn_buyToClick {
+      float: right;
+      border: 2px solid @btn_border_blue;
+      padding: 7px 15px 5px;
+      color: @btn_color_grey;
+    }
+  }
+  .None {
+    display: block;
+    font: 1.5em/1.33em @f_pn;
+    color: @goods_none_color;
+    background-color: @goods_none_bg_color;
+    padding: 11px 30px;
+    .border-radius(3px);
+  }
+}

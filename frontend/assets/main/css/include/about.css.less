@@ -1,0 +1,48 @@
+.About {
+  .Us {
+    display: block;
+    padding-top: 35px;
+    padding-bottom: 70px;
+    .backgroundProp(@size: cover);
+    .title {
+      padding-bottom: 30px;
+    }
+  }
+  .History {
+    padding-top: 35px;
+    padding-bottom: 60px;
+    .backgroundProp(@image: '../images/wave_blue.jpg', @repeat: repeat);
+    .title {
+      padding-bottom: 10px;
+    }
+    .dateList {
+      margin-top: 35px;
+      .backgroundProp(@image: '../images/icons/icon_dot.jpg', @repeat: repeat-y, @position: 76px center);
+      li {
+        padding-bottom: 30px;
+        &:last-child {
+          padding-bottom: 0;
+        }
+        .clear;
+        .date {
+          display: block;
+          float: left;
+        }
+        .desc {
+          padding-left: 98px;
+        }
+      }
+    }
+  }
+  .title {
+    font: bold 3.6em/1em @f_pn;
+    color: @white;
+  }
+  .text {
+    font: 2em/1.2em @f_pn;
+    color: @white;
+    p {
+      padding-bottom: 20px;
+    }
+  }
+}

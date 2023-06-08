@@ -1,0 +1,74 @@
+{
+    "name": "yiisoft/yii2-app-advanced",
+    "description": "Yii 2 Advanced Application Template",
+    "keywords": ["yii2", "framework", "advanced", "application template"],
+    "homepage": "http://www.yiiframework.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "2.0.6",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-swiftmailer": "*",
+        "bower-asset/jquery-form": "*",
+        "bower-asset/ace-builds": "~1.1",
+        "bower-asset/angular": ">=1.4.0-rc.1",
+        "bower-asset/ng-file-upload": "*",
+        "bower-asset/angular-loading-bar": "*",
+        "bower-asset/angular-animate": ">=v1.4.0-rc.1",
+        "bower-asset/select2": "*",
+        "yiisoft/yii2-authclient": "*",
+        "mobiledetect/mobiledetectlib": "^2.8",
+        "2amigos/yii2-date-time-picker-widget": "~1.0",
+        "moonlandsoft/yii2-phpexcel": "*",
+        "imagine/imagine": "0.6.*",
+        "retailcrm/api-client-php": "~3.0.0",
+        "guzzlehttp/guzzle": "^6.0",
+        "ext-json": "*",
+		"zabachok/yii2-sluggable-behavior": "*",
+        "norkunas/onesignal-php-api": "1.0",
+        "php-http/guzzle6-adapter": "1.1",
+        "jetpay/paymentpage-sdk": "dev-main",
+        "phpoffice/phpexcel": "^1.8",
+        "kartik-v/yii2-widget-select2": "@dev"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*"
+    },
+    "config": {
+        "process-timeout": 1800,
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
+        }
+    },
+    "extra": {
+        "asset-vcs-driver-options": {
+            "github-no-api": true
+        },
+        "asset-pattern-skip-version": "(-build|-patch)",
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    },
+    "autoload": {
+        "psr-4": {"shadow\\": "shadow"}
+    }
+}

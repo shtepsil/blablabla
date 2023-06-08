@@ -1,0 +1,200 @@
+.dn {
+    display: none !important;
+}
+
+#popupSelCity .switchCity .truck-delivery {
+    text-decoration: none;
+}
+
+#popupSelCity .switchCity .fa.fa-truck {
+    position: relative;
+    top: 1px;
+    right: -8px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #6A9ACC;
+}
+
+.goodsPosition .gImage .image:before {
+    margin-top: 0%;
+}
+
+.goodsPosition .gImage .image img {
+    width: 100%;
+}
+
+.recipeSlider .carousel-inner .item:before {
+    margin-top: 0%;
+}
+
+.Goods .cat-description {
+    margin-bottom: 50px;
+    color: #343332;
+}
+
+.Goods .cat-description .c-title {
+    font: bold 2.7em/1.11em "Proxima Nova", sans-serif;
+    margin-bottom: 10px;
+}
+
+.Goods .cat-description .c-text {
+    font: 1.6rem/1.5em "Proxima Nova", sans-serif;
+}
+
+/* Просмотр рецепта */
+.Recipe .recipeColumn .blockTimeEnd .top_T_E .description-time-cooking {
+    margin-bottom: 10px;
+}
+
+.Recipe .recipeColumn .blockTimeEnd .top_T_E .description-time-cooking p {
+    font: 1.5rem/1.2 "Proxima Nova", sans-serif;
+    color: #343332;
+}
+
+/**
+ * Модальное окно со ссылками доставки
+ * кружок с вопросиком
+ */
+#popupSelCity ul.switchCity li .delivery-info {
+    position: relative;
+}
+
+#popupSelCity ul.switchCity li .what-is-delivery {
+    position: absolute;
+    top: 3px;
+    right: -10px;
+    color: white;
+    font-size: 9px;
+    background-color: rgba(106, 154, 204);
+    padding: 5px 6px 3px 6px;
+    line-height: 7px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.wrapper__scroll__search {
+    padding: 10px;
+}
+
+/* Для активного поиска - начало */
+#wrapper__search__result {
+    position: absolute;
+    z-index: 99;
+    margin-top: 65px;
+    right: 0;
+    display: none;
+    width: 25%;
+    background-color: #fff;
+    padding: 25px 0 45px;
+    height: 90vh;
+}
+
+#wrapper__search__result button {
+    margin: 0 30px;
+}
+
+#wrapper__search__result a {
+    color: black;
+}
+
+#wrapper__search__result .__wrapper__search__result .wrapper__scroll {
+    display: block;
+    overflow: auto;
+    overflow-x: auto;
+    max-height: 325px
+}
+
+#wrapper__search__result .__wrapper__search__result .btn__red {
+    margin: 24px 9px;
+    width: 90%;
+    text-align: center;
+}
+
+.name_item_search {
+    margin: 0 12px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-size: 13px;
+}
+
+.price_item_search {
+    font-weight: bold;
+    font-size: 11px;
+    vertical-align: middle;
+    font-family: 'Proxima Nova', sans-serif;
+    width: 42px;
+}
+
+.img_item_search {
+    margin: 10px;
+    font-size: 10px;
+    color: black
+}
+
+.img_item_margin {
+    margin: 3px;
+}
+
+.name_cat_search {
+    font: bold 14px 'Proxima Nova', sans-serif;
+}
+
+.cat_block {
+    margin: 5px 15px;
+    font-size: 12px;
+    color: black
+}
+
+@media all and (max-width: 479px) {
+    #wrapper__search__result {
+        width: 100%;
+        top: 10%;
+        margin-top: 30px;
+    }
+
+    #view_count {
+        position: fixed;
+        bottom: 30px;
+        left: 40px;
+    }
+}
+
+/* ==========================================================
+          Иконки для перехода в appstore и playmarket
+ ============================================================ */
+.intro-links {
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+.intro-links a img {
+    width: 149px;
+    margin: 0 10px -50px;
+}
+
+.intro-links a.appstore img {
+    height: 46px;
+}
+
+/* ==========================================================
+        Модальное окно с текстом доставки в выходные
+============================================================ */
+#weekends_delivery .description {
+    font: 1.8em "Proxima Nova", sans-serif;
+}
+
+/* ==========================================================
+            Страница заказа, последний шаг
+============================================================ */
+.cartRight .cartLine .min-order-sum-city-label {
+    font-size: 14px !important;
+    font-weight: normal !important;
+    color: red !important;
+}
+
+.cartRight .cartLine .min-order-sum-city b {
+    font: 16px/1.25em "Proxima Nova", sans-serif;
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,40 @@
+//[class*=btn_] {
+//  .border-radius(20px);
+//}
+
+.btn_Form {
+  &.blue {
+    background-color: @btn_background_blue;
+    color: @white;
+  }
+  &.grey {
+    background-color: @btn_background_grey;
+    color: @white;
+  }
+  display: table;
+  font: 1.4rem/1.43em @f_pn;
+  padding: 8px 22px;
+  .border-radius(20px);
+}
+
+.btn_addToCart, .btn_buyToClick {
+  display: table;
+  font: 1.4em/1.43em @f_pn;
+  color: @white;
+  padding: 9px 15px 7px;
+  .border-radius(20px);
+}
+.btn_addToCart {
+  background-color: @btn_background_blue;
+}
+.btn_buyToClick {
+  border: 2px solid @btn_border_blue;
+  padding: 7px 15px 7px;
+  color: @btn_color_grey;
+}
+
+[data-where*="to"] {
+  color: @blue;
+  border-bottom: 1px dotted @blue;
+  cursor: pointer;
+}

@@ -1,0 +1,9 @@
+$(function(){
+    setFooter();
+    topMenu();
+    check_height();
+    build_tabs();
+    cabinetMenu();
+    listen_tab();
+    listen_cart();
+});

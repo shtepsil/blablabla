@@ -1,0 +1,318 @@
+@input_color: #343332;
+
+.sPage {}
+
+form.SearchPage {
+  position: relative;
+  z-index: 7;
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  input {
+    position: relative;
+    z-index: 8;
+    padding-right: 42px;
+    padding-left: 22px;
+    font: 1.6em @f_pn;
+    color: @input_color;
+  }
+  .custom {
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    margin-top: -8px;
+    right: 13px;
+    width: 16px;
+    height: 16px;
+    .backgroundProp(@image: '../images/icons/icon_search_big.png', @size: contain);
+  }
+}
+
+.searchResTitle {
+  font: bold 2.2em/1.82em @f_pn;
+  color: @input_color;
+  padding-top: 10px;
+}
+
+.AllCont {
+  .title {
+    padding-bottom: 40px;
+  }
+}
+
+form.recoveryPass {
+  display: block;
+  width: 100%;
+  max-width: 255px;
+  .string {
+    margin-bottom: 30px;
+  }
+}
+
+.errorPage404 {
+  text-align: center;
+  padding-bottom: 40px;
+  .image404 {
+    padding: 0 15px 15px;
+    img {
+      display: block;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+  }
+  .erInformMessg {
+    font: 1.6rem/1.5em @f_pn;
+    color: @dark;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  .gotohome {
+    font: 1.4rem/1.7em @f_pn;
+    color: @blue;
+  }
+
+  @media (max-width: 999px) and (min-width: 767px) {
+    .erInformMessg {
+      font-size: 2.4rem;
+    }
+    .gotohome {
+      font-size: 2.2rem;
+    }
+  }
+}
+
+.stepByStep {
+  padding-top: 30px;
+  ul {
+    display: table;
+    position: relative;
+    z-index: 9;
+
+    &:before {
+      position: absolute;
+      z-index: 1;
+      top: 50%;
+      left: 0;
+      display: block;
+      width: 100%;
+      height: 2px;
+      content: '';
+      background-color: #dcdddf;
+    }
+
+    li {
+      position: relative;
+      z-index: 2;
+      display: inline-block;
+      min-height: 33px;
+      padding-left: 50px;
+      padding-right: 10px;
+      background-color: #efefef;
+      margin-left: 100px;
+      &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        z-index: 9;
+        top: 3px;
+        left: 0;
+        .steps;
+      }
+      &:first-child {
+        margin-left: 0;
+        padding-left: 43px;
+      }
+      &.active {
+        .step {
+          color: #343332;
+        }
+        &.one {
+          &:before {
+            .steps.steps-one_active;
+          }
+        }
+        &.two {
+          &:before {
+            .steps.steps-two_active;
+          }
+        }
+        &.three {
+          &:before {
+            .steps.steps-three_active;
+          }
+        }
+      }
+      &.one {
+        &:before {
+          .steps.steps-one;
+        }
+      }
+      &.two {
+        &:before {
+          left: 10px;
+          .steps.steps-two;
+        }
+      }
+      &.three {
+        &:before {
+          left: 10px;
+          .steps.steps-three;
+        }
+      }
+
+      .step {
+        font: bold 1.8rem/1.11em @f_pn;
+        color: #80858d;
+      }
+    }
+  }
+}
+
+
+@media all and (max-width: 999px) {
+
+  .stepByStep {
+    display: none;
+  }
+
+  .sPage {
+    .title {
+      font-size: 4.8rem;
+      padding-bottom: 50px;
+    }
+  }
+
+  form.SearchPage {
+    input {
+      padding-right: 60px;
+      padding-left: 16px;
+      font-size: 3rem;
+    }
+    .custom {
+      width: 25px;
+      height: 25px;
+      margin-top: -12px;
+    }
+  }
+
+  .searchResTitle {
+    font-size: 4rem;
+  }
+
+  .AllCont {
+    .title {
+      font-size: 4.8rem;
+    }
+  }
+
+  form.recoveryPass {
+    max-width: 100%;
+    .string {
+      margin-bottom: 60px;
+    }
+    .btn_Form {
+      padding: 18px 30px;
+    }
+  }
+}
+
+@media all and (max-width: 767px) {
+  .sPage {
+    .title {
+      font-size: 4rem;
+      padding-bottom: 27px;
+    }
+  }
+
+  form.SearchPage {
+    input {
+      padding-right: 60px;
+      padding-left: 16px;
+      font-size: 2.6rem;
+    }
+    .custom {
+      width: 25px;
+      height: 25px;
+      margin-top: -12px;
+    }
+  }
+
+  .searchResTitle {
+    font-size: 3rem;
+  }
+
+  .AllCont {
+    .title {
+      font-size: 2.4rem;
+      padding-bottom: 15px;
+    }
+  }
+
+  form.recoveryPass {
+    .string {
+      margin-bottom: 30px;
+    }
+    .btn_Form {
+      padding: 8px 25px;
+    }
+  }
+}
+
+@media all and (max-width: 479px) {
+  .sPage {
+    .title {
+      font-size: 2.6rem;
+      padding-bottom: 18px;
+    }
+  }
+
+  form.SearchPage {
+    input {
+      padding-right: 42px;
+      padding-left: 22px;
+      font-size: 1.6rem;
+    }
+    .custom {
+      width: 16px;
+      height: 16px;
+      margin-top: -8px;
+    }
+  }
+
+  .searchResTitle {
+    font-size: 2.4rem;
+  }
+}
+
+
+ul.manyTags {
+  margin: 10px 0;
+
+  @media all and (max-width: 999px) {
+    display: none;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 8px;
+
+    &.current {
+      a {
+        background-color: #679fd4;
+        color: #fff;
+      }
+    }
+
+    a {
+      display: block;
+      background-color: #d2e6f8;
+      color: #4686cc;
+
+      font: 1.6rem/1.5em @f_pn;
+
+      padding: 8px 15px;
+
+      .border-radius(19px);
+    }
+  }
+}

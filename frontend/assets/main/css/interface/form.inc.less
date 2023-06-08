@@ -1,0 +1,107 @@
+//Определение классов для форм
+
+.form() {
+  form {
+    .clear;
+    .string {
+      width: 100%;
+        .clear;
+        &.required {
+          label {
+            position: relative;
+            padding-left: 10px;
+            &:before {
+              .flIcon(@content: '*', @top:0);
+              color:@red;
+              font: bold 1em/1.22em @f_pn;
+            }
+          }
+        }
+        .required {
+          position: relative;
+          padding-left: 10px;
+          &:before {
+            .flIcon(@content: '*', @top:0);
+            color:@red;
+            font: bold 1em/1.22em @f_pn;
+          }
+        }
+        &.error, &.warning {
+          input, textarea {
+            border-color: @red;
+          }
+        }
+    }
+    input, textarea {
+      &.error, &.warning {border-color: @red;}
+    }
+  }
+}
+
+.button(@d: inline-block, @bg: #000, @font: 1.3em 'Arial', @lh: 1em, @c: #fff, @b: 0, @p: 5px) {
+  display: @d;
+  background: @bg;
+  border: @b;
+  padding: @p;
+  cursor: pointer;
+  font: @font;
+  line-height: @lh;
+  color: @c;
+}
+
+.checkbox(@bg_off: url(''), @bg_on: url(''), @font: 1.4em 'Arial', @lh: 1em, @color_off: #000, @color_on: #000, @mr: 10px, @ml: 0) {
+  input[type=checkbox] {
+    display: none !important;
+      &:checked {
+          + label {
+            color: @color_on;
+            &:before {content: url(@bg_on);}
+          }
+      }
+      + label {
+        //display: inline-block;
+        //vertical-align: middle;
+        position: relative;
+        cursor: pointer;
+        font: @font;
+        line-height: @lh;
+        color: @color_off;
+          &:before {
+            //display: inline-block;
+            //vertical-align: middle;
+            content: url(@bg_off);
+            margin-right: @mr;
+            margin-left: @ml;
+            position: absolute;
+
+          }
+      }
+  }
+}
+
+.radio(@bg_off: '', @bg_on: '', @font: 1.4em 'Arial', @lh: 1em, @color_off: #000, @color_on: #000, @mr: 10px, @ml: 0) {
+  input[type=radio] {
+    display: none !important;
+    &:checked {
+      + label {
+        color: @color_on;
+        &:before {content: url(@bg_on);}
+      }
+    }
+    + label {
+      display: inline-block;
+      vertical-align: middle;
+      cursor: pointer;
+      font: @font;
+      line-height: @lh;
+      color: @color_off;
+      &:before {
+        display: inline-block;
+        vertical-align: middle;
+        content: url(@bg_off);
+        margin-right: @mr;
+        margin-left: @ml;
+      }
+    }
+  }
+}

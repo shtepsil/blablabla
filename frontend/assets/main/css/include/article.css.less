@@ -1,0 +1,318 @@
+.Article {
+  &.bgWave {
+    .backgroundProp(@image: '../images/wave.jpg', @repeat: repeat);
+  }
+  &.articlelist, &.newlist, &.articlePosition {
+    h1 {
+      padding-bottom: 30px;
+    }
+    .articleBlocks {
+      padding-bottom: 35px;
+      .articleBlock {
+        margin-top: 20px;
+        width: 23.5%;
+        float: left;
+        margin-right: 2%;
+        &:nth-child(4n+4) {
+          margin-right: 0;
+        }
+        .image {
+          &:before {
+            margin-top: 58.333333333%;
+          }
+        }
+      }
+    }
+  }
+  &.articlePosition {
+    .bTitle {
+      padding-bottom: 0;
+    }
+  }
+  &.articleInner {
+    padding-bottom: 50px;
+    .title {
+      font: bold 3.6em/1.11em @f_pn;
+      color: @dark;
+      padding-top: 33px;
+      padding-bottom: 30px;
+    }
+    .articleBlock {
+      .border-radius(0);
+      .clear;
+      .image {
+        display: block;
+        width: 40.185950413%;
+        float: left;
+        margin-right: 15px;
+        &:before {
+          display: block;
+          //margin-top: 66.580976864%;
+          margin-top: 58.24175824175824%;
+          content: '';
+        }
+      }
+      .wrapperText {
+        padding: 0;
+        border-bottom: 0;
+        .desc {
+          font-size: 1.6rem;
+          p {
+            padding-bottom: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  &.articlerecipe {
+    .articleBlock {
+      margin-bottom: 20px;
+      .clear;
+      .image {
+        display: block;
+        width: 100%;
+        max-width: 240px;
+        float: left;
+        margin-right: 20px;
+        .border-radius(3px);
+        &:before {
+          display: block;
+          margin-top: 66.666666667%;
+          content: '';
+        }
+      }
+      .wrapperText {
+        padding: 0;
+        border-bottom: 0;
+        .desc {
+          font-size: 1.8rem;
+          p {
+            padding-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .articleBlocks {
+    .clear;
+    &.bgWave {
+      .backgroundProp(@image: '../images/wave.jpg', @repeat: repeat);
+    }
+  }
+
+  .articleBlock {
+    display: block;
+    width: 100%;
+    background-color: @white;
+    border-bottom: 2px solid @border_color_grey;
+    .border-radius(4px);
+    .image {
+      position: relative;
+      z-index: 9;
+      display: inline-block;
+      width: 100%;
+      .backgroundProp(@size: cover);
+      &:before {
+        display: block;
+        content:'';
+        margin-top: 56.96821515892421%;
+      }
+    }
+    .wrapperText {
+      display: block;
+      padding: 16px 13px 22px;
+      .date {
+        display: block;
+        font: 1.6rem/1.25em @f_pn;
+        color: @color_article_time;
+        padding-bottom: 3px;
+      }
+      .title {
+        display: block;
+        font: bold 2.2rem/.91em @f_pn;
+        color: @color_article_title;
+      }
+      .desc {
+        display: block;
+        font: 1.8rem/1.11em @f_pn;
+        color: @color_article_desc;
+        padding: 13px 0 12px;
+        a {
+          color: @links_color;
+          border-bottom: 1px solid @links_b_color;
+        }
+        b {
+          color: @dark;
+        }
+        ul {
+          margin-top: 7px;
+          li {
+            padding-bottom: 6px;
+          }
+        }
+        ol{
+          counter-reset: myCounter;
+          li{
+            list-style: none;
+            color: @dark;
+            padding-bottom: 6px;
+            &:before {
+              counter-increment: myCounter;
+              content:counter(myCounter)')';
+              display: inline-block;
+              margin-right: 3px;
+            }
+          }
+        }
+      }
+      .time {
+        display: table;
+        font: 1.6rem/1.25em @f_pn;
+        color: @color_article_time;
+        padding-left: 17px;
+        .backgroundProp(@image: '../images/icons/icon_time.png', @position: left center);
+      }
+    }
+  }
+}
+
+@media all and (max-width: 1399px) {
+
+  .Article {
+    &.articlelist, &.newlist, &.articlePosition {
+      .articleBlocks {
+        .articleBlock {
+          width: 31.5%;
+          float: left;
+          margin-right: 2.75%;
+          &:nth-child(3n+3) {
+            margin-right: 0;
+          }
+          &:nth-child(4n+4) {
+            margin-right: 2.75%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 999px) {
+
+  .Article {
+    &.articlelist, &.newlist, &.articlePosition {
+      h1 {
+        font-size: 4.8em;
+      }
+      .articleBlocks {
+        .articleBlock {
+          width: 100%;
+          float: left;
+          margin-right: 0 !important;
+          .wrapperText {
+            .title {
+              font-size: 4.8rem;
+            }
+            .desc {
+              font-size: 3rem;
+            }
+            .time, .date {
+              font-size: 2.4rem;
+            }
+          }
+        }
+      }
+    }
+    &.articlerecipe {
+      .articleBlock {
+        .image {
+          max-width: 100%;
+          margin-right: 0;
+          margin-bottom: 15px;
+        }
+      }
+    }
+
+    &.articleInner {
+      padding-bottom: 50px;
+      .title {
+        font-size: 4.8rem;
+        padding-top: 33px;
+        padding-bottom: 30px;
+      }
+      .articleBlock {
+        .image {
+          width: 100%;
+          //float: left;
+          margin-right: 0;
+          margin-bottom: 20px;
+          display: inline-block;
+        }
+        .wrapperText {
+          padding: 0;
+          border-bottom: 0;
+          .desc {
+            font-size: 1.6rem;
+            p {
+              padding-bottom: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 767px) {
+
+  .Article {
+    &.articlelist, &.newlist, &.articlePosition {
+      h1 {
+        font-size: 4em;
+      }
+      .articleBlocks {
+        .articleBlock {
+          .wrapperText {
+            .title {
+              font-size: 3rem;
+            }
+            .desc {
+              font-size: 2.4rem;
+            }
+            .time, .date {
+              font-size: 2.4rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 479px) {
+
+  .Article {
+    &.articlelist, &.newlist, &.articlePosition {
+      h1 {
+        font-size: 2.4em;
+      }
+      .articleBlocks {
+        .articleBlock {
+          .wrapperText {
+            .title {
+              font-size: 1.8rem;
+            }
+            .desc {
+              font-size: 1.8rem;
+            }
+            .time, .date {
+              font-size: 1.8rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

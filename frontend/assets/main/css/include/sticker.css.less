@@ -1,0 +1,72 @@
+.stickerPosition {
+  .absolute();
+  .action, .discount, .popular, .best {
+    position: absolute;
+    z-index:10;
+    display: inline-block;
+  }
+  .action, .popular, .new {
+    position: relative;
+    top: 0;
+    left: 0;
+
+    font: 1.5em/1.33em @f_pn;
+    color: @white;
+    background-color: @background_action;
+    padding: 7px 16px 6px 12px;
+  }
+  .new {
+    display: inline-block;
+    background-color: @background_discount;
+    //padding-bottom: 7px;
+  }
+  .discount {
+    bottom:0;
+    right: 0;
+
+    width: 80px;
+    height: 80px;
+    padding-top: 30px;
+    background-color: @background_discount;
+    font: 1.8em/1.11em @f_pn;
+    color: @white;
+    text-align: center;
+    .border-radius(40px);
+  }
+  .popular {
+
+    background-color: @background_popular;
+  }
+  .best {
+    bottom: 0;
+    left: 0;
+
+    width: 60px;
+    height: 60px;
+    .backgroundProp(@image: '../images/icons/icon_best.png', @size: contain);
+  }
+}
+
+@media all and (max-width: 999px) {
+  .stickerPosition {
+    .action, .popular, .new {
+      font-size: 3em;
+    }
+  }
+}
+
+@media all and (max-width: 767px) {
+  .stickerPosition {
+    .action, .popular, .new {
+      font-size: 2.4em;
+    }
+  }
+}
+
+@media all and (max-width: 479px) {
+  .stickerPosition {
+    .action, .popular, .new {
+      font-size: 1.8em;
+    }
+  }
+}

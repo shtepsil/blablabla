@@ -1,0 +1,720 @@
+@import '../interface/adaptive.inc.less';
+//Адаптивная вёрстка
+
+@media all and (max-width: 10000px) {
+  .topEnter_icon {
+    display: none;
+  }
+  .padSpace {
+    padding-right: 130px;
+    padding-left: 130px;
+    .transition;
+    &.reverse {
+      margin-left: -130px;
+      margin-right: -130px;
+    }
+  }
+
+  //-------------------------------------****************************
+
+  .header {
+    ul.topLinks {
+      li {
+        margin-right: 25px;
+          .transition;
+      }
+    }
+    .wrapperOptions {
+      max-width: 216px;
+      //width: 18.69281045751634%;
+      width: 20.7%;
+      .topEnter_icon {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  }
+
+}
+
+@media all and (max-width: 1530px) {
+  .padSpace {
+    padding-right: 20px;
+    padding-left: 20px;
+    .transition;
+    &.reverse {
+      margin-left: -20px;
+      margin-right: -20px;
+    }
+  }
+}
+
+@media all and (max-width: 1479px) {
+  .header {
+      ul.topLinks {
+        li {
+          margin-right: 20px;
+            .transition;
+        }
+      }
+      .topContact {
+        padding-top: 8px;
+        width: 18%;
+        .wrapperLeft, .wrapperRight {
+          float: none !important;
+          .popupBtn_city {
+            font-size: 1.4em;
+          }
+          .number {
+            font-size: 1.4em;
+          }
+          .popupLink {
+            padding-top: 0;
+            font-size: 1.4em;
+          }
+        }
+      }
+      .topEnter {
+        padding-top: 26px;
+        span {
+          //font-size: 1.1em;
+        }
+      }
+  }
+}
+
+@media all and (max-width: 1366px) {
+  .sliderPosition {
+    height: 290px;
+    .carousel-inner, .owl-stage-outer, .owl-stage, .owl-item {
+        display: block;
+        width: 100%;
+        height: 290px;
+        .item {
+          //height: 290px;
+          .backgroundProp(@size: cover);
+        }
+      }
+  }
+}
+
+@media all and (max-width: 1280px) {
+  .header {
+    .logotype {
+      img {
+        max-width: 130px;
+      }
+    }
+  }
+  ul.informLine {
+    li {
+      &.one {
+        width: 21%;
+      }
+      &.two {
+        width: 28%;
+      }
+      &.three {
+        width: 25%;
+      }
+      &.four {
+        width: 25%;
+      }
+      &:last-child {
+        display: none;
+      }
+    }
+  }
+  .footer {
+    .copyright {
+      width: 22%;
+      margin-right: 6%;
+    }
+    .fMenu {
+      width: 42%;
+    }
+    .fFacebook {
+      width: 30%;
+    }
+  }
+}
+
+@media all and (max-width: 1120px) {
+  .header {
+    ul.topLinks {
+      li {
+        margin-right: 15px;
+          a {
+            font-size: 1.4em;
+          }
+      }
+    }
+    .topContact {
+      padding-right: 5px;
+    }
+    .topEnter {
+      padding-top: 28px;
+      padding-right: 5px;
+      width: 11%;
+      min-width: 125px;
+      span {
+        font-size: 1.1em;
+      }
+    }
+  }
+  .navMenu {
+    ul.topMenu {
+      li {
+        padding-right: 10px;
+        padding-left: 10px;
+        span, a {
+          font-size: 1.2em;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 999px) {
+  .gTitle {
+    font-size: 4.8em;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .preTitle {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .header {
+    border-bottom: 2px solid @header_b_bottom;
+    height: auto;
+    .logotype {
+      width: 100%;
+      height: 100px;
+      text-align: center;
+      img {
+        display: inline-block;
+        max-width: 100%;
+      }
+    }
+    ul.topLinks {
+      display: none;
+    }
+    .wrapperOptions {
+      position: static;
+      max-width:100%;
+      width: auto;
+      .topEnter_icon {
+        display: block;
+      }
+      ul.cabinetSubmenu {
+        background-color: @background_topCart;
+
+        //________________new code 05.01.2016
+
+        padding: 0;
+
+        li, li:last-child {
+          padding: 0 15px;
+          a {
+            font: bold 2.6rem/1.08em @f_pn;
+            color: @white;
+            letter-spacing: .075em;
+            text-transform: uppercase;
+
+            padding: 30px 30px;
+            border-bottom: 1px solid #404680;
+          }
+        }
+        li:last-child {
+          a {
+            border-bottom: 0;
+            padding-left: 74px;
+            position: relative;
+            &:before {
+              display: block;
+              width: 29px;
+              height: 40px;
+              position: absolute;
+              z-index: 9;
+              top: 19px;
+              left: 30px;
+              content: '';
+              .backgroundProp(@image: '../images/icons/icon_lock.png', @size: contain);
+            }
+          }
+        }
+      }
+    }
+    .iconMenu {
+      display: block;
+      width: 100px;
+      height: 100px;
+    }
+    .topContact {
+      min-width: 240px;
+      float: left;
+      padding-top: 0;
+      padding-left: 20px;
+      .wrapperLeft {
+        .popupBtn_city {
+          font-size: 2.4em;
+        }
+        .number {
+          font-size: 2.6em;
+        }
+      }
+      .popupLink {
+        display: none;
+      }
+    }
+    .topEnter {
+      display: none;
+    }
+    .topCart {
+      width: 100px;
+      span {
+        width: 40px;
+        height: 40px;
+        font-size: 2.2em;
+        padding-top: 4px;
+        .border-radius(20px);
+      }
+    }
+  }
+
+  .navMenu {
+    display: none;
+    background-color: @blue_dark;
+    &.open {
+      display: block;
+    }
+    width: 100%;
+    max-width: 768px;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    padding: 0 15px;
+    .formSearch_menu {
+      float: none;
+      width: 100%;
+      margin: 30px 0;
+    }
+    .login_panel {
+      display: block;
+      border-top: 1px solid @navMenu_border_color;
+      padding: 36px 0;
+      span {
+        font: bold 2.6em/1.08em @f_pn;
+        color: @login_panel_color;
+        text-transform: uppercase;
+        display: block;
+        position: relative;
+        padding-left: 43px;
+        &:before {
+          position: absolute;
+          z-index: 9;
+          bottom: 0;
+          left: 0;
+          content: url(../images/icons/icon_lock.png);
+        }
+      }
+    }
+    ul.topMenu {
+      float: none;
+      >li {
+        float: none;
+        border-top: 1px solid @navMenu_border_color;
+        padding: 0;
+        &:first-child {
+          padding-left: 0;
+        }
+        &.dropmenu {
+          &.open {
+            background-color: @blue_dark;
+          }
+          >a, >span {
+            &:after {
+              top: 50%;
+              margin-top: -14px;
+              content: url(../images/icons/icon_navMenu_big_arrow.png);
+            }
+          }
+          .submenu {
+            position: relative;
+            top: auto;
+            left: auto;
+            padding: 0 0 20px;
+            background-color: @blue_dark;
+            li {
+              a {
+                font-size: 2em;
+              }
+            }
+          }
+        }
+        >a, >span {
+          font: bold 2.6em/1.08em @f_pn;
+          color: @login_panel_color;
+          text-transform: uppercase;
+          display: block;
+          padding: 36px 0;
+        }
+        >span {
+          display: inline-block;
+        }
+      }
+    }
+  }
+  ul.informLine {
+    li {
+      &.one, &.two, &.three, &.four, &.five {
+        display: block;
+        float: left;
+        width: 50%;
+        padding-bottom: 25px;
+      }
+      img {
+        max-height: 109px;
+      }
+      span {
+        font-size: 2.6em;
+        line-height: 1.15em;
+      }
+    }
+  }
+
+  .formSubscribe {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .string {
+      width: 100%;
+      float: none;
+      text-align: center;
+      label {
+        padding-bottom: 20px;
+      }
+    }
+  }
+
+  .footer {
+    .copyright, .fMenu, .fFacebook {
+      padding: 15px;
+      position: relative;
+      width: 100%;
+      display: block;
+      float: none;
+    }
+  }
+
+  .navigationBlock {
+    li {
+      .border-radius(31px);
+      a {
+        width: 62px;
+        height: 62px;
+        font-size: 3em;
+        padding-top: 13px;
+      }
+    }
+  }
+
+  ul.breadcrumbs {
+    li {
+      font-size: 2.4em;
+      a {
+        &:after {
+          top: -7px;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 767px) {
+  .gTitle {
+    font-size: 4em;
+  }
+  .header {
+    height: auto;
+    .logotype {
+      width: 100%;
+      height: 80px;
+      text-align: center;
+      img {
+        display: inline-block;
+        max-width: 100%;
+      }
+    }
+    .wrapperOptions {
+      .topEnter_icon {
+        width: 80px;
+        height: 80px;
+      }
+
+
+
+      ul.cabinetSubmenu {
+        li, li:last-child {
+          padding: 0 10px;
+          a {
+            font-size: 1.8rem;
+            padding: 15px 10px;
+          }
+        }
+        li:last-child {
+          a {
+            padding-left: 35px;
+            &:before {
+              width: 15px;
+              height: 23px;
+              top: 11px;
+              left: 10px;
+            }
+          }
+        }
+      }
+    }
+    .iconMenu {
+      display: block;
+      width: 80px;
+      height: 80px;
+    }
+
+    .topContact {
+      min-width: 235px;
+      float: left;
+      padding-top: 0;
+      padding-left: 20px;
+      white-space: nowrap;
+      .wrapperLeft {
+        .popupBtn_city {
+          font-size: 2.4em;
+        }
+        .number {
+          font-size: 2.4em;
+        }
+      }
+    }
+    .topCart {
+      width: 80px;
+      height: 80px;
+      &.open {
+        .wrapperClick {
+          &:after {
+            bottom: -35px;
+          }
+        }
+      }
+      span {
+        width: 30px;
+        height: 30px;
+        font-size: 1.8em;
+        top: 15px;
+        right: 10px;
+        padding-top: 3px;
+      }
+    }
+  }
+
+  .navMenu {
+    .login_panel {
+      span {
+        font-size: 2em;
+        padding-left: 25px;
+        &:before {
+          content: url(../images/icons/icon_login.png);
+        }
+      }
+    }
+    ul.topMenu {
+      >li {
+        &.dropmenu {
+          >a, >span {
+            &:after {
+              content: url(../images/icons/icon_arrow.png);
+            }
+          }
+        }
+        >a, >span {
+          font-size: 2em;
+        }
+      }
+    }
+  }
+
+  ul.informLine {
+    li {
+      &.one, &.two, &.three, &.four, &.five {
+        width: 100%;
+        float: none;
+        padding-left: 13%;
+        padding-bottom: 30px;
+        span {font-size: 2.4em;}
+      }
+    }
+  }
+
+  .footer {
+    .fMenu {
+      ul {
+        display: block;
+        width: 100%;
+        font-variant: normal;
+      }
+    }
+  }
+  .formSubscribe {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .string {
+      width: 100%;
+      float: none;
+      text-align: center;
+      label {
+        padding-bottom: 20px;
+      }
+      input {
+        width: 50%;
+      }
+      button {
+        width: 36%;
+        float: right;
+      }
+    }
+  }
+
+  .navigationBlock {
+    li {
+      .border-radius(26px);
+      a {
+        width: 52px;
+        height: 52px;
+        font-size: 2.4em;
+        padding-top: 11px;
+      }
+    }
+  }
+
+  ul.breadcrumbs {
+    li {
+      font-size: 1.4em;
+      a {
+        &:after {
+          top: -3px;
+        }
+      }
+    }
+  }
+
+}
+
+@media all and (max-width: 479px) {
+  .gTitle {
+    font-size: 2.4em;
+  }
+  .padSpace {
+    padding-right: 15px;
+    padding-left: 15px;
+    &.reverse {
+      margin-left: -15px;
+      margin-right: -15px;
+    }
+  }
+  .header {
+    .logotype {
+      height: 45px;
+      padding-top: 8px;
+      img {
+        max-width: 160px;
+        max-height: 35px;
+      }
+    }
+    .wrapperOptions {
+      .topEnter_icon {
+        width: 45px;
+        height: 45px;
+      }
+    }
+    .iconMenu {
+      width: 45px;
+      height: 45px;
+    }
+    .topContact {
+      padding-left: 15px;
+      min-width: 180px;
+      .wrapperLeft {
+        .popupBtn_city {
+          font-size: 1.8em;
+          line-height: 1em;
+          margin-bottom: 4px;
+          span {
+            display: inline-block;
+            line-height: .8em;
+          }
+        }
+        .number {
+          font-size: 1.8em;
+          line-height: 1em;
+        }
+      }
+    }
+    .topCart {
+      width: 45px;
+      height: 45px;
+      min-width: 45px;
+      span {
+        width: 20px;
+        height: 20px;
+        font-size: 1.1em;
+        top: 5px;
+        right: 3px;
+      }
+    }
+  }
+
+  ul.informLine {
+    display: none;
+    &.double {
+      display: block;
+    }
+    li {
+      &.one, &.two, &.three, &.four, &.five {
+        padding-left: 3%;
+        span {
+          font-size: 1.8em;
+        }
+        img {
+          max-height: 77px;
+        }
+      }
+    }
+  }
+  .formSubscribe {
+    .string {
+      input {
+        width: 100%;
+        float: none;
+        margin-bottom: 30px;
+      }
+      button {
+        width: 50%;
+        float: none;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .navigationBlock {
+    li {
+      .border-radius(21px);
+      a {
+        width: 42px;
+        height: 42px;
+        font-size: 1.8em;
+        padding-top: 10px;
+      }
+    }
+  }
+}

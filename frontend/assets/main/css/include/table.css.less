@@ -1,0 +1,701 @@
+.adpTable {
+  width: 100%;
+  border: 1px solid @border_color_grey;
+  .border-radius(4px);
+  tr {
+    td {
+      font: 1.6em/1.25em @f_pn;
+      color: @dark;
+      padding: 15px 0 15px 20px;
+      vertical-align: middle;
+      position: relative;
+      .clear;
+      &:before {
+        display: none;
+        content: attr(data-title);
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        width: 45%;
+        padding-top: 15px;
+        padding-left: 20px;
+      }
+    }
+  }
+  tbody {
+    tr {
+      &:nth-child(odd) {
+        background-color: @table_tr_bg_color;
+      }
+      &:last-child {
+        td {
+          border-bottom: 0;
+        }
+      }
+    }
+  }
+  &.pricelist {
+    tr {
+      td {
+        padding-left: 15px;
+      }
+    }
+    thead {
+      tr {
+        td {
+          &.zArticle {
+            width: 14.148351648%;
+            min-width: 103px;
+          }
+          &.zName {
+            width: 38.461538462%;
+            min-width: 280px;
+          }
+          &.zNum {
+            width: 7.5%;
+            min-width: 40px;
+          }
+          &.zPrice {
+            width: 20.879120879%;
+            min-width: 152px;
+          }
+          &.zInCart {
+            width: 16.538461538%;
+            min-width: 105px;
+          }
+        }
+      }
+    }
+    tbody {
+      tr {
+        td {
+          &.zArticle {
+            color: @table_td_zArticle_color;
+          }
+          &.zName {}
+          &.zNum {
+            input {
+              width: 40px;
+              height: 40px;
+              font: normal 1.6rem @f_pn;
+              text-align: center;
+            }
+          }
+          &.zPrice {
+            b {
+              margin-right: 10px;
+            }
+            s {
+              font-size: 1.5rem;
+              color: @grey_light;
+            }
+          }
+          &.zInCart {
+            padding-left: 10px;
+            .btn_Form {
+              padding-right: 13px;
+              padding-left: 13px;
+            }
+          }
+        }
+      }
+    }
+  }
+  &.orders {
+    thead {
+      tr {
+        td {
+          border-bottom: 1px solid @border_color_grey;
+          &.zNum {
+            width: 12.989690722%;
+            min-width: 126px;
+          }
+          &.zDate {
+            width: 45.154639175%;
+          }
+          &.zSumm {
+            width: 11.958762887%;
+            min-width: 116px;
+          }
+          &.zStatus {
+            width: 15.257731959%;
+            min-width: 148px;
+          }
+          &.zRez {
+            width: 12.577319588%;
+            min-width: 122px;
+          }
+        }
+      }
+    }
+    tbody {
+      tr {
+        &.success {
+          td {
+            &.zStatus {
+              .bgstatus {
+                background-color: @table_tr_status_success_bg_color;
+                color: @table_tr_status_success_color;
+              }
+            }
+          }
+        }
+        &.rejected {
+          td {
+            &.zStatus {
+              .bgstatus {
+                background-color: @table_tr_status_rejected_bg_color;
+                color: @table_tr_status_rejected_color;
+              }
+            }
+          }
+        }
+        &.waiting {
+          td {
+            &.zStatus {
+              .bgstatus {
+                background-color: @table_tr_status_waiting_bg_color;
+                color: @table_tr_status_waiting_color;
+              }
+            }
+          }
+        }
+        td {
+          border-bottom: 1px solid @border_color_grey;
+
+          &.zNum {
+            a {
+              color: @blue;
+              border-bottom: 1px solid @blue_lite_underline;
+            }
+          }
+          &.zDate {}
+          &.zSumm {white-space: nowrap;}
+          &.zStatus {
+            .bgstatus {
+              display: table;
+              padding: 3px 10px 5px;
+              .border-radius(4px);
+            }
+          }
+          &.zRez {
+            padding-right: 15px;
+            a {
+              color: @blue;
+              border-bottom: 1px solid @blue_lite_underline;
+            }
+          }
+        }
+      }
+    }
+  }
+  &.order {
+    tbody, thead {
+      tr {
+        &.result {
+          background: none;
+        }
+        &.dlc_result {
+          background-color: @white;
+          td {
+            font: 1.5em/1.6em @f_pn;
+            color: @grey_light;
+            padding-right: 10px;
+          }
+        }
+        td {
+          &.zN {
+            width: 14.963880289%;
+            min-width: 50px;
+          }
+          &.zGoods {
+            width: 36.635706914%;
+            min-width: 300px;
+            span {
+              color: @goodsTopLine_color_grey;
+              font-size: .875em;
+            }
+            a {
+              color: @dark;
+            }
+          }
+          &.zNum {
+            width: 21.671826625%;
+            min-width: 100px;
+            span {
+              color: @table_tr_status_success_color;
+            }
+          }
+          &.zPrice {
+            width: 14.447884417%;
+            min-width: 130px;
+          }
+          &.zRes {
+            width: 12.383900929%;
+            min-width: 130px;
+          }
+        }
+      }
+    }
+  }
+  &.cart {
+    tr {
+      td {
+        &.zN {
+          width: 4.639175258%;
+          min-width: 45px;
+        }
+        &.zGoods {
+          width: 36.494845361%;
+          min-width: 354px;
+          span {
+            color: @goodsTopLine_color_grey;
+            font-size: .875em;
+          }
+          a {
+            color: @dark;
+          }
+        }
+        &.zNum {
+          width: 20%;
+          min-width: 280px;
+          input[type=text] {
+            width: 40px;
+            height: 40px;
+            border: 1px solid @form_border_input;
+            background-color: @white;
+            font: 1em/1.25em @f_pn;
+            text-align: center;
+            float: left;
+            display: block;
+            margin-right: 20px;
+            padding-right: 10px;
+            padding-left: 10px;
+            .border-radius(5px);
+          }
+          input[type=checkbox] + label {
+            font-size: 1em;
+            line-height: 1.3em;
+          }
+        }
+        &.zPrice {
+          width: 10.721649485%;
+          min-width: 104px;
+          white-space: nowrap;
+        }
+        &.zRes {
+          width: 20%;
+          min-width: 155px;
+          position: relative;
+          padding-right: 60px;
+          white-space: nowrap;
+          .btnDelete {
+            width: 32px;
+            height: 32px;
+            display: block;
+            cursor: pointer;
+            position: absolute;
+            z-index: 9;
+            top: 50%;
+            margin-top: -16px;
+            right: 20px;
+            .backgroundProp(@image: '../images/icons/icon_delete.png', @size: contain);
+            span {display: none;}
+          }
+        }
+      }
+      &.result {
+        background-color: @white;
+      }
+      &.dlc_result {
+        background-color: @white;
+        td {
+          font: 1.5em/1.6em @f_pn;
+          color: @grey_light;
+          padding-right: 10px;
+        }
+      }
+    }
+  }
+  &.ManagerTable {
+    thead {
+      tr {
+        td {
+          &.zNum {
+            width: 10%;
+          }
+          &.zDate {
+            width: 19.381443299%;
+          }
+          &.zSumm {
+            width: 40.103092784%;
+          }
+          &.zStatus {
+            width: 28.24742268%;
+          }
+        }
+      }
+    }
+    tbody {
+      tr {
+        td {
+          vertical-align: top;
+          &.zSumm {
+            white-space: normal;
+            .clear;
+            a {color: @blue;}
+            .colPrice, .colUser {
+              display: block;
+              float: left;
+            }
+            .colPrice {
+              width: 31.362467866%;
+            }
+            .colUser {
+              width: 63.496143959%;
+            }
+          }
+          &.zStatus {
+            .clear;
+            .colStatus, .colSettings {
+              display: block;
+              float: left;
+            }
+            .colStatus {
+              width: 60%;
+            }
+            .colSettings {
+              width: 40%;
+              .clear;
+            }
+            .btnEdit, .btnDelete {
+              width: 32px;
+              height: 32px;
+              display: block;
+              float: left;
+              cursor: pointer;
+              .backgroundProp(@size: contain);
+            }
+            .btnDelete {
+              background-image: url(../images/icons/icon_del.png);
+            }
+            .btnEdit {
+              background-image: url(../images/icons/icon_edit.png);
+              margin-right: 11px;
+            }
+            .orderStatus_panel {
+              .oR_type {
+                font: 1.6rem/1.25em @f_pn;
+                color: @dark;
+                padding-bottom: 8px;
+              }
+              >span {
+                font: 1.1rem/1.82em @f_pn;
+                color: @grey_light;
+              }
+              ul {
+                display: block;
+                width: 97px;
+                height: 6px;
+                .clear;
+                li {
+                  display: block;
+                  float: left;
+                  width: 20%;
+                  height: 6px;
+                  border: 1px solid @border_color_grey;
+                  background-color: @white;
+                  &.active {
+                    background-color: @orderStatus_panel_bg_color_act;
+                    border:0;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 999px) {
+  .adpTable {
+    display: block;
+    &.order, &.cart {
+      thead {
+        display: none;
+      }
+      tbody {
+        display: block;
+        width: 100%;
+        tr {
+          display: block;
+          width: 100%;
+          &.result {
+            .clear;
+            td {
+              &:before {display: none;}
+              &.zN {display: none;}
+              &.zGoods {
+                width: 49%;
+                padding-left: 15px;
+                float: left;
+              }
+              &.zRes {
+                width: 49%;
+                padding-left: 15px;
+                float: left;
+              }
+            }
+          }
+          td {
+            &.zN, &.zGoods, &.zNum, &.zPrice, &.zRes {
+              display: block;
+              width: 100%;
+              min-width: 1px;
+              border-bottom: 0;
+              padding: 10px 10px 10px 0;
+              padding-left: 50%;
+              &:before {
+                display: block;
+                padding-top: 10px;
+
+              }
+            }
+          }
+        }
+      }
+    }
+    &.orders {
+      thead {
+        display: none;
+      }
+      tbody {
+        display: block;
+        width: 100%;
+        tr {
+          display: block;
+          width: 100%;
+          td {
+            display: block;
+            width: 100%;
+            padding-left: 50%;
+            border-bottom: 0;
+            &:before {
+              display: block;
+            }
+          }
+        }
+      }
+    }
+    &.cart {
+      tr {
+        td {
+          &.zNum {
+            input[type=text] {
+              float: none;
+              margin-bottom: 20px;
+              width: 100px;
+              height: 80px;
+              font-size: 4rem;
+            }
+            .checkbox {
+              margin-bottom: 30px;
+              input[type=checkbox] + label {
+                padding-left: 30px;
+                line-height: 1em;
+                &:before {
+                  width: 20px;
+                  height: 20px;
+                }
+              }
+            }
+          }
+          &.zPrice, &.zRes {
+            text-align: right;
+            &:before {
+              text-align: left;
+            }
+          }
+          &.zRes {
+            .btnDelete {
+              position: static;
+              background: none;
+              background-color: @btn_background_blue;
+              color: @white;
+              display: table;
+              font: 3rem @f_pn;
+              padding: 8px 22px;
+              margin: 30px 0 30px;
+              width: auto;
+              height: auto;
+              float: right;
+              .border-radius(35px);
+              span {display: block;}
+            }
+          }
+        }
+      }
+    }
+    &.pricelist {
+      width: 100%;
+      tr {
+        td {
+          padding-left: 10px;
+          padding-right: 5px;
+        }
+      }
+      thead {
+        display: none;
+      }
+      tbody {
+        tr {
+          td {
+            &.zArticle, &.zName, &.zNum, &.zPrice, &.zInCart {
+              display: block;
+              width: 100%;
+              padding-left: 50%;
+              &:before {
+                display: block;
+                color: @dark;
+                padding-left: 15px;
+              }
+            }
+            &.zNum {
+              input {
+                width: 100px;
+                height: 80px;
+                font: normal 4rem @f_pn;
+              }
+            }
+            &.zPrice {
+              s {
+                font-size: 1.8rem;
+              }
+            }
+            &.zInCart {
+              padding-top: 5px;
+              padding-left: 50%;
+              padding-bottom: 30px;
+              .btn_Form {
+                font-size: 2.4rem;
+                padding: 18px 40px;
+                .border-radius(40px);
+              }
+            }
+          }
+        }
+      }
+    }
+    tr {
+      td {
+        font-size: 2.6em;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 767px) {
+  .adpTable {
+    display: block;
+
+    &.order {
+      tbody, thead {
+        tr {
+          td {
+            &.zGoods {
+              min-width: 1px;
+            }
+          }
+        }
+      }
+    }
+    &.cart {
+      tr {
+        td {
+          &.zRes {
+            .btnDelete {
+              font: 2.4rem @f_pn;
+            }
+          }
+        }
+      }
+    }
+    tr {
+      td {
+        font-size: 2.4em;
+        padding: 10px 0 10px 20px;
+        &:last-child {
+          padding-bottom: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 479px) {
+  table.adpTable {
+    width: 100% !important;
+    &.cart {
+      tr {
+        td {
+          &.zNum {
+            input[type=text] {
+              width: 40px;
+              height: 40px;
+              font-size: 1.6rem;
+            }
+          }
+          &.zRes {
+            .btnDelete {
+              font: 1.4rem @f_pn;
+              margin: 15px 0;
+            }
+          }
+        }
+      }
+    }
+    &.pricelist {
+      tbody {
+        display: block;
+        tr {
+          td {
+            padding-top: 16px;
+            vertical-align: top;
+            width: 100% !important;
+            &.zNum {
+              padding-top: 0;
+              padding-bottom: 0;
+              input {
+                width: 40px;
+                height: 40px;
+                font: normal 1.6rem @f_pn;
+              }
+            }
+            &.zPrice {
+              s {
+                font-size: 1.5rem;
+              }
+            }
+            &.zInCart {
+              padding-top: 0;
+              padding-bottom: 15px;
+              .btn_Form {
+                font-size: 1.4rem;
+                padding: 8px 13px;
+              }
+            }
+          }
+        }
+      }
+    }
+      tr {
+        width: 100% !important;
+        td {
+          font-size: 1.6em;
+        }
+      }
+  }
+}

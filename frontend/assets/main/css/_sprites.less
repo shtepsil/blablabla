@@ -1,0 +1,34 @@
+.stitches-steps(@x: 0, @y: 0, @width: 0, @height: 0) {
+  background-position: @x @y;
+  width: @width;
+  height: @height;
+}
+
+.steps {
+  background-image: url(../images/steps/sprite.png);    background-repeat: no-repeat;
+  display: block;
+
+  &.steps-one {
+    .stitches-steps(-5px, -5px, 33px, 33px);
+  }
+
+  &.steps-one_active {
+    .stitches-steps(-48px, -5px, 33px, 33px);
+  }
+
+  &.steps-three {
+    .stitches-steps(-5px, -48px, 33px, 33px);
+  }
+
+  &.steps-three_active {
+    .stitches-steps(-48px, -48px, 33px, 33px);
+  }
+
+  &.steps-two {
+    .stitches-steps(-91px, -5px, 33px, 33px);
+  }
+
+  &.steps-two_active {
+    .stitches-steps(-91px, -48px, 33px, 33px);
+  }
+}

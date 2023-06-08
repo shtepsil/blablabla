@@ -1,0 +1,1009 @@
+@import '../interface/window.inc.less';
+//Окна
+.overlay(@bgcolor: @overlay, @opacity: .5);
+.popup(@w: 520px, @pad: 0, @bg: @white);
+
+.wrapperOverlay {
+  z-index: 55;
+}
+
+.popup {
+  position: absolute;
+  padding: 13px 28px 20px;
+  width: 100%;
+  max-width: 520px;
+  background-color: @white;
+  .box-shadow(0 0 0 10px @popup_border);
+
+  @media all and (max-width: 999px) {
+    max-width: 748px !important;
+  }
+
+  @media all and (max-width: 767px) {
+    max-width: 460px !important;
+  }
+
+  @media all and (max-width: 479px) {
+    max-width: 300px !important;
+  }
+
+  .popupClose {
+    display: block;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    z-index: 9;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    .backgroundProp(@image: '../images/icons/icon_close_dark.png', @size: contain);
+  }
+  .popupTitle {
+    font: bold 3em/1em @f_pn;
+    color: @dark;
+    text-align: center;
+    padding-bottom: 27px;
+  }
+  .popupText {
+    font: 1.6em/1.7em @f_pn;
+    color: @black;
+  }
+  .popupBottom {
+    width: 100%;
+    .clear;
+  }
+}
+
+#popupCallback {
+  .popupText {
+    padding-bottom: 18px;
+  }
+}
+
+#popupSelCity {
+  min-height: 250px;
+  ul.switchCity {
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    .clear;
+    li {
+      display: block;
+      width: 100%;
+      padding-bottom: 8px;
+      a {
+        display: inline-block;
+        height: 20px;
+        font: 1.6em/1.5em @f_pn;
+        color: @blue;
+        border-bottom: 1px solid @blue_lite_underline;
+      }
+    }
+  }
+}
+
+#popupYourCity {
+  min-height: 160px;
+  .popupText {
+    margin: 10px 0 30px;
+  }
+  .popupBottom {
+    .btn_addToCart, .btn_buyToClick {
+      float: left;
+      white-space: nowrap;
+      margin-bottom: 10px;
+    }
+    .btn_addToCart {
+      margin-right: 20px;
+    }
+  }
+}
+
+#popupEntreg {
+  width: 100%;
+  max-width: 800px;
+  padding: 0;
+  .tabInterface {
+    .tabHead {
+      display: block;
+      width: 100%;
+      .clear;
+      >li {
+        width: 50%;
+        float: left;
+        background-color: @popupEntreg_tab_interface_bg_color_inactive;
+        padding: 13px 15px 20px 46px;
+        cursor: pointer;
+        &:first-child {
+          padding-left: 30px;
+        }
+        &.current {
+          display: block;
+          background-color: @white;
+          cursor: default;
+          .title {
+            color: @dark;
+            span {
+              border-bottom: 0;
+            }
+          }
+        }
+        .title {
+          font: bold 3em/1em @f_pn;
+          color: @blue;
+          margin-bottom: 5px;
+          span {
+            display: inline-block;
+            border-bottom: 1px dotted @blue;
+          }
+        }
+        .description {
+          font: 1.5em/1.33em @f_pn;
+          color: @grey_light;
+        }
+      }
+    }
+    .tabBody {
+      width: 100%;
+      >li {
+        display: none;
+        padding: 20px 30px;
+        &.current {
+          display: block;
+        }
+      }
+    }
+  }
+
+  @media all and (max-width: 999px) {
+    position: absolute;
+    max-width: 748px;
+    .tabInterface {
+      .tabHead {
+        >li {
+          min-height: 141px;
+          .title {
+            font-size: 4rem;
+            span {
+              display: inline-block;
+              border-bottom: 1px dotted @blue;
+            }
+          }
+          .description {
+            font-size: 2.4rem;
+          }
+        }
+      }
+      .tabBody {
+        >li {
+          .formPopupEnter, .formPopupRegister {
+            max-width: 500px;
+            .string {
+              label {
+                font-size: 2.4rem;
+              }
+              input {
+                max-width: 100%;
+                width: 437px;
+                height: 80px;
+              }
+              .input_inform span {
+                display: block;
+                font-size: 2.4rem;
+                padding-top: 16px;
+              }
+              .captcha {
+                input {
+                  width: 130px;
+                }
+                .image {
+                  width: auto;
+                  height: 80px;
+                  img {
+                    height: 80px;
+                  }
+                }
+                .changeImage {
+                  font-size: 2.6rem;
+                }
+              }
+              .btn_Form {
+                font-size: 3rem;
+                padding: 15px 60px;
+                .border-radius(40px);
+              }
+              .btnLink {
+                font-size: 2.6rem;
+              }
+              .formSocial {
+                padding-top: 10px;
+                li {
+                  margin-right: 20px;
+                  a {
+                    width: 80px;
+                    height: 80px;
+                  }
+                }
+              }
+            }
+          }
+          .formPopupRegister {
+            max-width: 700px;
+          }
+        }
+      }
+    }
+  }
+
+  @media all and (max-width: 767px) {
+    max-width: 300px;
+    .tabInterface {
+      .tabHead {
+        >li {
+          min-height: 50px;
+          padding-top: 14px !important;
+          padding-bottom: 0 !important;
+          &:first-child {
+            padding-left: 0 !important;
+          }
+          .title {
+            font-size: 1.6rem;
+          }
+        }
+      }
+      .tabBody {
+        >li {
+          .formPopupEnter, .formPopupRegister {
+            max-width: 265px;
+            .string {
+              label {
+                font-size: 1.6rem;
+              }
+              input {
+                max-width: 100%;
+                width: 240px;
+                height: 40px;
+              }
+              .input_inform span {
+                font-size: 1.5rem;
+                padding-top: 6px;
+              }
+              .captcha {
+                input {
+                  width: 105px;
+                }
+                .image {
+                  width: auto;
+                  height: 40px;
+                  img {
+                    height: 40px;
+                  }
+                }
+                .changeImage {
+                  font-size: 1.6rem;
+                }
+              }
+              .btn_Form {
+                font-size: 1.6rem;
+                padding: 10px 20px;
+              }
+              .btnLink {
+                font-size: 1.6rem;
+              }
+              .formSocial {
+                padding-top: 10px;
+                li {
+                  margin-right: 10px;
+                  a {
+                    width: 40px;
+                    height: 40px;
+                  }
+                }
+              }
+            }
+          }
+          .formPopupRegister {
+            max-width: 265px;
+          }
+        }
+      }
+    }
+  }
+}
+
+#popupGoodsProcessing {
+  max-width: 500px;
+  .popupTitle {
+    padding-right: 20px;
+    text-align: left;
+  }
+  .popupText {
+    font: 1.5em/1.8em @f_pn;
+    color: @grey_light;
+    padding: 28px 0 10px;
+  }
+
+  @media all and (max-width: 999px) {
+    .popupTitle {
+      font-size: 4.8rem;
+      text-align: center;
+    }
+  }
+
+  @media all and (max-width: 767px) {
+    .popupTitle {
+      font-size: 2.4rem;
+      padding-bottom: 10px;
+    }
+  }
+}
+
+#modalCartWindow {
+  position: absolute;
+  z-index: 69;
+  top: 100%;
+  left: auto;
+  right: 0;
+  margin-top: 29px;
+  margin-right: 10px;
+  padding: 0;
+  background-color: @white;
+  display: none;
+  min-width: 285px;
+  .transformProp(translate(0, 0));
+  &.open {
+    display: block;
+  }
+  //&:before {
+  //  position: absolute;
+  //  top: -29px;
+  //  right: 0;
+  //  z-index: 9;
+  //  display: block;
+  //  width: 55px;
+  //  height: 29px;
+  //  content: url(../images/icons/icon_modalCartWindow_corner.png);
+  //}
+  .topTitle {
+    padding: 16px 9px;
+    .line {
+      font: 1.5em/1.33em @f_pn;
+      color: #372f2c;
+    }
+  }
+  .bottomTitle {
+    width: 100%;
+    padding: 20px 10px 20px 14px;
+    .result {
+      width: 100%;
+      padding-bottom: 15px;
+      .clear;
+      .ttRR {
+        float: left;
+        font: 1.5em/1.33em @f_pn;
+        color: #343332;
+      }
+      .price {
+        float: right;
+        font: bold 1.6em/1.25em @f_pn;
+        color: @color_price;
+        &.cart_sum_string {
+          font: bold 1.8em/1.25em @f_pn;
+          color: #372f2c;
+        }
+      }
+    }
+    .btn_Form {
+      font-size: 1.6rem;
+      margin: 0 auto;
+    }
+  }
+  .wrapperScroll {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    min-height: 250px !important;
+    overflow: hidden;
+    padding-left: 6px;
+    .cartBlock {
+      display: block;
+      width: 255px;
+      position: relative;
+      border-bottom: 1px solid @modalCartWindow_border;
+      padding: 7px 15px 16px 0;
+      .clear;
+      .delGoods {
+        position: absolute;
+        z-index: 9;
+        top: 10px;
+        right: 1px;
+        display: block;
+        width: 14px;
+        height: 14px;
+        cursor: pointer;
+        .backgroundProp(@image: '../images/icons/icon_delete_bold.png', @size: contain);
+      }
+      .image {
+        display: block;
+        width: 85px;
+        height: 60px;
+        float: left;
+        .backgroundProp(@size: contain);
+      }
+      .description {
+        display: block;
+        width: 155px;
+        float: left;
+        padding-top: 5px;
+        padding-left: 5px;
+        .box-sizing;
+        .name {
+          font: bold 1.8em/1.2em @f_pn;
+          color: #343332;
+        }
+        .minidesc {
+          font: 1.6rem/1.25em @f_pn;
+          color: #80858d;
+        }
+        .article, .num {
+          font: 1.6rem/1.5em @f_pn;
+          color: #c5c5c5;
+        }
+        .num {
+          font-weight: bold;
+          color: #343332;
+        }
+        .price {
+          font: bold 1.8em/1.25em @f_pn;
+          color: @color_price;
+        }
+      }
+
+      .switchType_panel {
+        padding-top: 10px;
+        .string {
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+
+  @media all and (max-width: 999px) {
+    right: -100px;
+    min-width: 748px;
+
+    .topTitle {
+      text-align: center;
+      border-bottom: 1px solid #dedede;
+      .line {
+        font-size: 3rem;
+      }
+    }
+    .bottomTitle {
+      padding: 30px 40px;
+      .result {
+        .ttRR {
+          font-size: 3rem;
+        }
+        .price {
+          font-size: 3rem;
+          &.cart_sum_string {
+            font-size: 4rem;
+          }
+        }
+      }
+      .btn_Form {
+        font-size: 3rem;
+        padding: 20px 70px;
+        .border-radius(40px);
+      }
+    }
+    .wrapperScroll {
+      .cartBlock {
+        width: 710px;
+        padding-top: 20px;
+        padding-right: 25px;
+        padding-bottom: 20px;
+        .delGoods {
+          width: 20px;
+          height: 20px;
+        }
+        .image {
+          width: 280px;
+          height: 215px;
+        }
+        .description {
+          width: 405px;
+          padding-left: 30px;
+          .name {
+            font-size: 4rem;
+          }
+          .minidesc {
+            font-size: 3rem;
+          }
+          .article {
+            font-size: 2.4rem;
+          }
+          .num {
+            font-size: 3rem;
+          }
+          .price {
+            font-size: 4rem;
+          }
+        }
+        .switchType_panel {
+          float:left;
+          padding-left: 30px;
+          .string {
+            input[type=radio] + label {
+              font-size: 3rem;
+              padding-left: 30px;
+              &:before {
+                width: 13px;
+                height: 13px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media all and (max-width: 767px) {
+  right: -80px;
+  min-width: 460px;
+
+  .topTitle {
+    .line {
+      font-size: 1.6rem;
+    }
+  }
+  .bottomTitle {
+    padding: 20px 10px;
+    .result {
+      .ttRR {
+        font-size: 1.6rem;
+      }
+      .price {
+        font-size: 1.6rem;
+        &.cart_sum_string {
+          font-size: 2rem;
+        }
+      }
+    }
+    .btn_Form {
+      font-size: 1.6rem;
+      padding: 7px 15px;
+    }
+  }
+  .wrapperScroll {
+    .cartBlock {
+      width: 422px;
+      padding-top: 20px;
+      padding-right: 25px;
+      padding-bottom: 20px;
+      .delGoods {
+        width: 20px;
+        height: 20px;
+      }
+      .image {
+        width: 122px;
+        height: 100px;
+      }
+      .description {
+        width: 275px;
+        padding-left: 10px;
+        .name {
+          font-size: 1.8rem;
+        }
+        .minidesc {
+          font-size: 1.6rem;
+        }
+        .article {
+          font-size: 1.6rem;
+        }
+        .num {
+          font-size: 1.6rem;
+        }
+        .price {
+          font-size: 2rem;
+        }
+      }
+      .switchType_panel {
+        padding-left: 10px;
+        .string {
+          input[type=radio] + label {
+            font-size: 1.6rem;
+            padding-left: 20px;
+            &:before {
+              width: 14px;
+              height: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+  @media all and (max-width: 479px) {
+    right: -45px !important;
+    min-width: 300px;
+
+    .wrapperScroll {
+      .cartBlock {
+        width: 272px;
+        padding-top: 20px;
+        padding-right: 25px;
+        padding-bottom: 20px;
+        .delGoods {
+          width: 20px;
+          height: 20px;
+        }
+        .image {
+          width: 107px;
+          height: 100px;
+        }
+        .description {
+          width: 140px;
+          padding-left: 10px;
+        }
+      }
+    }
+  }
+}
+
+#popupUploadAvatar {
+  form.form_avatarUpload {
+    .string {
+      width: 100%;
+      margin-bottom: 30px;
+      .clear;
+      label {
+        display: block;
+        width: 50%;
+        float: left;
+        font: 1.6em/1.69em @f_pn;
+        color: @black;
+        padding-top: 10px;
+      }
+      .image {
+        display: block;
+        width: 102px;
+        height: 102px;
+        float: left;
+        .backgroundProp(@size: contain);
+      }
+      .uploadInput {
+        display: block;
+        width: 50%;
+        float: left;
+        position: relative;
+        z-index: 1;
+        input[type=file] {
+          display: block;
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          z-index: 3;
+          top: 0;
+          left: 0;
+          cursor: pointer;
+          .opacity(0, 0);
+        }
+        .fakeFile {
+          position: relative;
+          z-index: 2;
+          display: table;
+          font: 1.6em/1.25em @f_pn;
+          color: @white;
+          background-color: @btn_background_grey;
+          padding: 12px 30px;
+          .border-radius(20px);
+        }
+      }
+      .textProp {
+        font: 1.5em/1.8em @f_pn;
+        color: @grey_light;
+      }
+    }
+  }
+}
+
+#popupAddGoods {
+  .string {
+    margin-bottom: 25px;
+    .clear;
+    &.twoCol {
+      .col {
+        display: block;
+        float: left;
+        &:last-child {
+          width: 65%;
+        }
+        &:first-child {
+          width: 30%;
+          margin-right: 5%;
+        }
+      }
+    }
+  }
+}
+
+#popupExportExel, #popupDateSort {
+  .popupTitle {
+    padding-right: 20px;
+  }
+  .formExportExel {
+    .string {
+      margin-bottom: 20px;
+      .clear;
+      .col {
+        float: left;
+        &.text {
+          width: 30px;
+          font: 1.6em/1em @f_pn;
+          color: @black;
+          padding-top: 11px;
+        }
+        &.day {
+          margin-right: 10px;
+          input {
+            width: 45px;
+            height: 38px;
+          }
+        }
+        &.month {
+          margin-right: 10px;
+          .blSelect {
+            select {
+              height: 38px;
+              padding-left: 10px;
+              background-color: @white;
+            }
+            .chosen-container, select {
+              width: 120px !important;
+              .chosen-single {
+                width: 120px;
+                height: 38px;
+              }
+            }
+          }
+        }
+        &.year {
+          .blSelect {
+            select {
+              height: 38px;
+              padding-left: 10px;
+              background-color: @white;
+            }
+            .chosen-container, select {
+              width: 80px !important;
+              .chosen-single {
+                width: 80px;
+                height: 38px;
+              }
+            }
+          }
+        }
+      }
+      .blSelect {
+        select {
+          height: 40px;
+          padding-left: 10px;
+          background-color: @white;
+        }
+        .chosen-container, select {
+          width: 200px !important;
+          font: 1.6em @f_pn;
+          color: @black;
+          .chosen-single {
+            width: 200px;
+            height: 40px;
+            line-height: 2.3em;
+            padding-left: 10px;
+            background: none;
+            box-shadow: none;
+            border: 1px solid @form_border_input;
+            div {
+              width: 13px;
+              right: 10px;
+              b {
+                .backgroundProp(@image: '../images/icons/icon_arrow_down.png', @size: contain);
+              }
+            }
+          }
+          .chosen-drop {
+            border-color: @form_border_input;
+            .chosen-results {
+              li {
+                padding-top: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#popupOrderByClick {
+  .orderByClick_content {
+    padding-top: 55px;
+    .buttonsLine {
+      display: block;
+      width: 100%;
+      text-align: center;
+      .clear;
+      .btn_Form, span {
+        display: inline-block;
+        vertical-align: middle;
+        margin-bottom: 35px;
+      }
+      .btn_Form {
+        margin-right: 40px;
+        font-size: 1.6rem;
+      }
+      >span {
+        font: 1.6rem/1.5em @f_pn;
+        color: @blue;
+        border-bottom: 1px solid @blue;
+        cursor: pointer;
+      }
+    }
+  }
+  .popupText {
+    text-align: center;
+    padding-bottom: 55px;
+  }
+}
+
+
+@media all and (max-width: 999px) {
+  .popup {
+    max-width: 100%;
+    .transformProp(translate(0, 110px));
+    .popupClose {
+      width: 40px;
+      height: 40px;
+      top: -80px;
+      right: 30px;
+      background-image: url(../images/icons/icon_close_white.png);
+    }
+  }
+
+  #popupOrderByClick {
+    .orderByClick_content {
+      padding-top: 70px;
+      .buttonsLine {
+        .btn_Form, span {
+          display: table;
+          margin: 0 auto 70px;
+        }
+        .btn_Form {
+          margin-right: auto;
+          font-size: 3rem;
+          padding: 20px 100px 20px 93px;
+          .border-radius(40px);
+        }
+        >span {
+          font-size: 2.6rem;
+          margin-bottom: 60px;
+        }
+      }
+    }
+    .popupText {
+      font-size: 3rem;
+      line-height: 1.33em;
+      padding-bottom: 40px;
+    }
+  }
+
+}
+
+@media all and (max-width: 767px) {
+
+  .popup {
+    .transformProp(translate(0, 50px));
+    .box-shadow(0 0 0 4px @popup_border);
+    .popupClose {
+      width: 26px;
+      height: 26px;
+      top: -41px;
+      right: 10px;
+    }
+  }
+
+  #popupOrderByClick {
+    .orderByClick_content {
+      padding-top: 47px;
+      .buttonsLine {
+        .btn_Form, span {
+          margin-bottom: 33px;
+        }
+        .btn_Form {
+          font-size: 1.6rem;
+          padding: 9px 33px;
+        }
+        >span {
+          font-size: 1.8rem;
+          margin-bottom: 36px;
+        }
+      }
+    }
+    .popupText {
+      font-size: 1.6rem;
+      padding-bottom: 35px;
+    }
+  }
+
+  #popupEntreg {
+    .tabInterface {
+      .tabHead {
+        >li {
+          padding-top: 60px;
+          padding-left: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 479px) {
+  #modalCartWindow {
+    right: -37px;
+  }
+  #popupEntreg {
+    .tabInterface {
+      .tabHead {
+        >li {
+          width: 50%;
+          float: left;
+          background-color: @popupEntreg_tab_interface_bg_color_inactive;
+          padding-top: 60px;
+          padding-left: 10px;
+          cursor: pointer;
+          text-align: center;
+          .title {
+            font: bold 2em/1em @f_pn;
+          }
+          .description {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+#fastOrder {
+  .popupText {
+    padding-bottom: 15px;
+  }
+  @media all and (max-width: 999px) and (min-width: 767px) {
+    .popupTitle {
+      font-size: 4.8rem;
+    }
+    .popupText {
+      font-size: 2.6rem;
+    }
+    form.formCallback {
+      .string {
+        label {
+          font-size: 2.6rem;
+        }
+        input {
+          width: 374px;
+          height: 80px;
+          font: bold 3rem/1em @f_pn;
+          color: #343332;
+        }
+        .btn_Form {
+          font-size: 3rem;
+          padding: 20px 60px;
+          .border-radius(40px);
+        }
+      }
+    }
+  }
+}

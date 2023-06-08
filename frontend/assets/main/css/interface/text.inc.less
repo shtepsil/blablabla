@@ -1,0 +1,15 @@
+//Определение классов для текста
+
+.textTitle(@font: 1em 'Arial, Helvetica, sans-serif', @lh: 1em, @color: #000, @tt: uppercase, @ls: 0){
+  font: @font;
+  line-height: @lh;
+  color: @color;
+  text-transform: @tt;
+  letter-spacing: @ls;
+}
+
+.text(@font: 1em 'Arial, Helvetica, sans-serif', @lh: 1em, @color: #000) {
+  font: @font;
+  line-height: @lh;
+  color: @color;
+}

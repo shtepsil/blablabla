@@ -1,0 +1,6 @@
+*
+!.gitignore
+!files
+!thumbs
+thumbs/*
+files/*

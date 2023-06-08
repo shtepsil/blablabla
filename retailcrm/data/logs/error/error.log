@@ -1,0 +1,994 @@
+[2017-01-19 20:22:01][ordersHistory] Connection timed out after 30001 milliseconds
+[2017-02-02 10:05:02][customersFixExternalIds] Errors in the input parameters id = 1518
+[2017-02-02 10:05:02][customersFixExternalIds] Specify customer name 
+[2017-02-02 10:10:02][customersFixExternalIds] Errors in the input parameters id = 1550
+[2017-02-02 10:10:02][customersFixExternalIds] Specify customer name 
+[2017-02-02 10:10:03][ordersUpload] Orders are loaded with errors
+[2017-02-02 10:10:03][ordersUpload] Order with externalId=CB112 already exists. 
+[2017-02-03 16:40:34][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Name or service not known
+[2017-02-08 02:22:41][ordersHistory] Resolving timed out after 30546 milliseconds
+[2017-02-10 13:22:02][ordersHistory] Connection timed out after 30001 milliseconds
+[2017-04-05 02:10:04][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; No route to host
+[2017-05-02 18:15:02][customersFixExternalIds] Errors in the input parameters id = 2104
+[2017-05-02 18:15:02][customersFixExternalIds] Specify customer name 
+[2017-05-03 19:32:02][ordersHistory] Connection timed out after 30002 milliseconds
+[2017-05-03 19:42:02][ordersHistory] Connection timed out after 30001 milliseconds
+[2017-06-16 07:45:02][customersFixExternalIds] Errors in the input parameters id = 1081
+[2017-06-16 07:45:02][customersFixExternalIds] Specify customer name 
+[2017-08-04 06:00:05][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Name or service not known
+[2017-09-04 13:02:02][ordersHistory] Connection timed out after 30001 milliseconds
+[2017-09-10 16:50:02][customersEdit] Invalid JSON in the API response body. Error code #4
+[2017-09-11 11:20:02][ordersHistory] Invalid JSON in the API response body. Error code #4
+[2017-09-11 15:00:02][customersEdit] Invalid JSON in the API response body. Error code #4
+[2017-09-13 13:15:02][customersFixExternalIds] Errors in the input parameters id = 1783
+[2017-09-13 13:15:02][customersFixExternalIds] Specify customer name 
+[2017-09-21 18:32:02][ordersHistory] Connection timed out after 30000 milliseconds
+[2017-09-21 19:31:47][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Name or service not known
+[2017-09-21 22:32:01][ordersHistory] Connection timed out after 30001 milliseconds
+[2017-09-21 23:32:01][ordersHistory] Connection timed out after 30000 milliseconds
+[2017-09-22 10:12:01][ordersHistory] Connection timed out after 30001 milliseconds
+[2017-10-05 17:50:02][ordersHistory] Invalid JSON in the API response body. Error code #4
+[2017-10-10 09:30:02][customersEdit] Invalid JSON in the API response body. Error code #4
+[2017-10-10 11:50:02][customersEdit] Invalid JSON in the API response body. Error code #4
+[2017-10-10 13:30:02][customersEdit] Invalid JSON in the API response body. Error code #4
+[2017-10-10 16:40:01][customersEdit] Invalid JSON in the API response body. Error code #4
+[2017-10-10 16:50:02][customersEdit] Invalid JSON in the API response body. Error code #4
+[2017-10-10 17:10:01][customersEdit] Invalid JSON in the API response body. Error code #4
+[2017-10-10 21:00:02][customersEdit] Invalid JSON in the API response body. Error code #4
+[2017-10-10 21:10:02][customersEdit] Invalid JSON in the API response body. Error code #4
+[2017-10-10 21:30:02][customersEdit] Invalid JSON in the API response body. Error code #4
+[2017-10-10 22:00:02][customersEdit] Invalid JSON in the API response body. Error code #4
+[2017-10-11 00:20:02][customersEdit] Invalid JSON in the API response body. Error code #4
+[2017-10-11 13:10:02][ordersHistory] Wrong "apiKey" value.
+[2017-10-11 13:20:02][ordersHistory] Wrong "apiKey" value.
+[2017-10-11 13:30:02][ordersHistory] Wrong "apiKey" value.
+[2017-10-11 13:40:02][ordersHistory] Wrong "apiKey" value.
+[2017-10-11 13:50:02][ordersHistory] Wrong "apiKey" value.
+[2017-12-05 13:30:05][customersEdit] Could not resolve host: kingfisher.retailcrm.ru; Name or service not known
+[2017-12-05 13:30:05][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Name or service not known
+[2017-12-11 23:30:06][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Name or service not known
+[2017-12-27 19:20:05][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Name or service not known
+[2018-02-10 13:10:05][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Name or service not known
+[2018-02-10 13:20:05][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Name or service not known
+[2018-02-10 13:30:05][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Name or service not known
+[2018-02-10 13:40:05][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Name or service not known
+[2018-02-10 13:50:08][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Name or service not known
+[2018-02-10 14:00:04][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Name or service not known
+[2018-02-19 23:30:07][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Name or service not known
+[2018-05-11 09:40:03][ordersHistory] Internal Server Error
+[2018-05-19 16:00:06][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Name or service not known
+[2018-08-08 02:30:10][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2018-08-08 02:40:31][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2018-08-08 02:51:36][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2018-08-08 03:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2018-08-08 03:11:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2018-08-08 03:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2018-08-08 08:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2018-08-08 08:30:37][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2018-08-08 08:40:38][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2018-08-31 22:01:21][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2018-09-04 03:50:30][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2018-09-04 04:00:38][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2018-09-04 04:10:37][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2018-09-04 09:00:30][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2018-10-05 17:40:10][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2018-10-14 01:12:14][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2018-10-17 22:00:06][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2018-10-31 21:40:05][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2018-10-31 21:50:06][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2018-10-31 23:20:02][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2018-11-01 02:20:05][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2018-12-06 23:20:06][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2018-12-13 23:50:05][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2018-12-14 02:00:27][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2018-12-14 02:30:12][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2019-01-25 16:30:03][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2019-01-26 00:30:02][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2019-01-26 15:12:02][ordersHistory] Operation timed out after 30001 milliseconds with 0 out of 0 bytes received
+[2019-01-27 07:00:03][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2019-01-27 10:30:02][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2019-01-27 12:20:03][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2019-01-27 20:02:02][ordersHistory] Operation timed out after 30001 milliseconds with 0 out of 0 bytes received
+[2019-01-27 20:21:47][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2019-02-11 18:30:05][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2019-02-11 19:20:06][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2019-02-11 22:00:05][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2019-02-12 00:20:06][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2019-02-12 00:50:05][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2019-02-12 02:20:06][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2019-02-12 05:50:08][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2019-02-12 08:40:07][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2019-03-27 03:20:08][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2019-04-01 17:20:09][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2019-04-12 01:12:02][ordersHistory] Operation timed out after 30001 milliseconds with 0 out of 0 bytes received
+[2019-04-29 23:20:03][ordersHistory] Service overloaded.
+[2019-05-23 18:50:03][ordersHistory] Method "getErrorMsg" not found
+[2019-07-30 12:10:02][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2019-08-21 06:30:18][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2019-09-11 03:01:14][ordersHistory] Invalid JSON in the API response body. Error code #4
+[2019-09-11 03:10:02][ordersHistory] Invalid JSON in the API response body. Error code #4
+[2019-09-11 03:20:03][ordersHistory] Invalid JSON in the API response body. Error code #4
+[2019-09-11 03:30:03][ordersHistory] Invalid JSON in the API response body. Error code #4
+[2019-09-11 03:40:03][ordersHistory] Invalid JSON in the API response body. Error code #4
+[2019-09-11 03:50:03][ordersHistory] Invalid JSON in the API response body. Error code #4
+[2019-09-11 04:00:03][ordersHistory] Invalid JSON in the API response body. Error code #4
+[2019-09-11 04:10:03][ordersHistory] Invalid JSON in the API response body. Error code #4
+[2019-12-15 05:42:13][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2019-12-15 07:01:58][ordersHistory] Resolving timed out after 30538 milliseconds
+[2019-12-15 09:52:41][ordersHistory] Resolving timed out after 30543 milliseconds
+[2019-12-15 11:32:41][ordersHistory] Resolving timed out after 30543 milliseconds
+[2020-02-24 10:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2020-03-18 07:31:37][ordersHistory] TCP connection reset by peer
+[2020-04-21 15:50:03][customersFixExternalIds] Errors in the input parameters id = 52462
+[2020-04-21 15:50:03][customersFixExternalIds] Specify customer name 
+[2020-05-05 21:20:08][ordersHistory] Invalid JSON in the API response body. Error code #4
+[2020-05-05 21:30:03][ordersHistory] Invalid JSON in the API response body. Error code #4
+[2020-05-05 21:40:02][ordersHistory] Invalid JSON in the API response body. Error code #4
+[2020-05-05 21:50:05][ordersHistory] Invalid JSON in the API response body. Error code #4
+[2020-05-05 22:00:03][ordersHistory] Invalid JSON in the API response body. Error code #4
+[2020-05-05 22:10:04][ordersHistory] Invalid JSON in the API response body. Error code #4
+[2020-05-05 22:20:03][ordersHistory] Invalid JSON in the API response body. Error code #4
+[2020-05-05 22:30:02][ordersHistory] Invalid JSON in the API response body. Error code #4
+[2020-05-05 22:40:04][ordersHistory] Invalid JSON in the API response body. Error code #4
+[2020-05-05 22:50:02][ordersHistory] Invalid JSON in the API response body. Error code #4
+[2020-05-12 21:15:02][ordersUpload] Orders are loaded with errors
+[2020-05-12 21:15:02][ordersUpload] Order with externalId=CB414 already exists. 
+[2020-05-28 13:00:02][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-06-17 21:00:27][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-06-17 21:10:12][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-07-07 09:02:02][ordersHistory] Operation timed out after 30001 milliseconds with 0 out of -1 bytes received
+[2020-07-07 09:12:02][ordersHistory] Operation timed out after 30001 milliseconds with 0 out of -1 bytes received
+[2020-07-07 09:20:24][ordersHistory] Service overloaded.
+[2020-07-07 09:32:01][ordersHistory] Operation timed out after 30000 milliseconds with 0 out of -1 bytes received
+[2020-07-07 13:40:27][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-07-23 20:20:23][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-07-24 04:10:12][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-07-27 21:10:27][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-07-27 21:20:16][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-07-27 21:30:18][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-07-27 21:40:12][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-07-27 21:50:17][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-07-27 22:10:13][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-07-27 22:20:18][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-07-28 13:50:17][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-09-07 04:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2020-09-15 06:10:16][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-09-20 01:50:43][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-09-20 02:00:39][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-09-20 02:10:39][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-09-20 02:20:44][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-09-20 02:30:49][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-09-29 23:51:37][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2020-09-30 00:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2020-09-30 00:11:32][customersEdit] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2020-10-02 12:10:05][ordersHistory] Internal Server Error
+[2020-10-02 12:20:04][ordersHistory] Internal Server Error
+[2020-10-14 04:40:57][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-10-14 04:50:29][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-10-14 05:01:51][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-10-14 05:11:44][ordersHistory] Resolving timed out after 30538 milliseconds
+[2020-10-14 05:21:23][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-10-14 05:31:44][ordersHistory] Resolving timed out after 30536 milliseconds
+[2020-10-14 05:41:07][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-10-14 05:50:26][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-10-14 06:00:24][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-10-14 06:10:12][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-10-14 06:21:24][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-10-14 06:31:34][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-10-14 06:41:39][ordersHistory] Resolving timed out after 30540 milliseconds
+[2020-10-14 07:00:28][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-10-14 07:10:27][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-10-14 07:20:53][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-10-14 07:31:23][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-10-16 17:50:02][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2020-11-27 13:30:03][ordersHistory] Service overloaded.
+[2020-12-08 13:20:03][customersEdit] Service overloaded.
+[2020-12-08 13:20:04][ordersHistory] Service overloaded.
+[2021-01-27 22:40:02][ordersHistory] Service overloaded.
+[2021-03-08 16:15:03][customersFixExternalIds] Errors in the input parameters id = 75655
+[2021-03-08 16:15:03][customersFixExternalIds] Specify customer name 
+[2021-03-10 11:41:57][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2021-03-10 12:01:59][ordersHistory] Resolving timed out after 30538 milliseconds
+[2021-03-10 12:20:53][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2021-03-27 18:00:28][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2021-04-06 01:21:07][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2021-04-06 01:32:03][ordersHistory] Resolving timed out after 30540 milliseconds
+[2021-04-06 01:42:41][ordersHistory] Resolving timed out after 30539 milliseconds
+[2021-04-21 20:50:28][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2021-04-21 22:10:28][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2021-06-02 17:02:41][ordersHistory] Resolving timed out after 30539 milliseconds
+[2021-06-12 01:20:03][ordersHistory] Internal Server Error
+[2021-06-12 01:30:03][ordersHistory] Internal Server Error
+[2021-06-23 22:50:27][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2021-06-29 19:30:03][ordersHistory] Service overloaded.
+[2021-06-29 19:42:02][ordersHistory] Operation timed out after 30001 milliseconds with 0 out of -1 bytes received
+[2021-06-29 19:50:03][ordersHistory] Service overloaded.
+[2021-06-29 20:40:03][ordersHistory] Service overloaded.
+[2021-07-08 13:32:01][ordersHistory] Operation timed out after 30001 milliseconds with 0 out of -1 bytes received
+[2021-09-06 13:01:22][ordersHistory] I/O operation timed out
+[2021-11-02 13:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2021-11-04 02:10:28][ordersHistory] Could not resolve host: kingfisher.retailcrm.ru; Unknown error
+[2021-11-23 23:42:37][ordersHistory] Resolving timed out after 30540 milliseconds
+[2021-12-15 14:45:04][customersFixExternalIds] Errors in the input parameters id = 93877
+[2021-12-15 14:45:04][customersFixExternalIds] Specify customer name 
+[2022-01-05 16:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 17:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 17:11:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 17:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 17:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 17:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 17:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 18:01:34][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 18:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 18:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 18:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 18:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 18:51:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 19:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 19:11:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 19:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 19:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 19:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 19:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 20:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 20:11:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 20:21:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 20:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 20:41:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 20:51:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 21:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 21:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 21:21:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 21:31:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 21:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 21:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 22:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 22:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 22:21:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 22:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 22:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 22:51:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 23:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 23:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 23:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 23:31:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 23:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-05 23:51:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 00:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 00:11:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 00:21:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 00:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 04:11:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 04:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 04:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 04:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 04:51:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 05:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 05:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 05:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 05:31:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 05:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 05:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 06:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 06:11:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 06:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 06:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 06:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 06:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 07:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 07:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 07:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 07:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 07:41:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 07:51:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 08:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 08:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 08:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 08:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 08:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 08:51:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 09:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 09:11:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 09:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 09:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 09:41:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 09:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 10:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 10:11:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 10:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 10:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 10:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 10:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 11:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 11:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 11:21:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 11:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 11:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 11:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 12:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 12:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 12:21:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 12:31:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 12:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 12:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 13:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 13:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 13:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 13:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 13:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 13:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 14:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 14:11:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 14:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 14:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 14:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 14:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 15:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 15:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 15:21:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 15:31:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 15:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 15:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 16:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 16:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 16:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 16:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 16:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 16:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 17:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 17:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 17:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 17:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 17:41:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 17:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 18:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 18:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 18:21:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 18:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 18:41:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 18:51:34][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 19:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 19:11:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 19:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 19:31:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 19:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 19:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 20:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 20:11:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 20:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 20:31:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 20:41:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 20:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 21:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 21:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 21:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 21:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 21:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 21:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 22:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 22:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 22:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 22:31:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 22:41:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 22:51:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 23:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 23:11:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 23:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 23:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 23:41:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-06 23:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 00:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 00:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 00:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 00:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 00:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 00:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 01:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 01:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 01:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 01:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 01:41:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 01:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 02:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 02:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 02:21:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 02:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 02:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 02:51:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 03:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 03:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 03:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 03:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 03:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 03:51:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 04:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 04:11:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 04:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 04:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 04:41:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 04:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 05:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 05:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 05:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 05:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 05:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 05:51:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 06:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 06:11:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 06:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 06:31:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 06:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 06:51:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 07:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 07:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 07:21:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 07:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 07:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 07:51:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 08:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 08:11:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 08:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 08:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 08:41:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 08:51:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 09:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 09:11:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 09:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 09:31:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 09:41:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 09:51:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 10:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 10:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 10:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 10:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 10:41:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 10:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 11:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 11:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 11:21:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 11:31:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 11:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 11:51:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 12:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 12:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 12:21:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 12:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 12:41:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 12:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 13:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 13:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 13:21:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 13:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 13:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 13:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 14:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 14:11:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 14:21:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 14:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 14:41:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 14:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 15:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 15:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 15:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 15:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 15:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 15:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 16:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 16:11:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 16:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 16:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 16:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 16:51:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 17:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 17:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 17:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 17:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 17:41:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 17:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 18:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 18:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 18:21:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 18:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 18:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 18:51:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 19:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 19:11:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 19:21:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 19:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 19:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 19:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 20:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 20:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 20:21:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 20:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 20:41:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 20:51:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 21:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 21:11:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 21:21:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 21:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 21:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 21:51:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 22:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 22:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 22:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 22:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 22:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 22:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 23:01:34][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 23:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 23:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 23:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 23:41:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-07 23:51:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 00:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 00:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 00:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 00:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 00:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 00:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 01:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 01:11:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 01:21:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 01:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 01:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 01:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 02:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 02:11:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 02:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 02:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 02:41:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 02:51:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 03:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 03:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 03:21:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 03:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 03:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 03:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 04:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 04:11:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 04:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 04:31:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 04:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 04:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 05:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 05:11:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 05:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 05:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 05:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 05:51:34][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 06:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 06:11:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 06:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 06:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 06:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 06:51:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 07:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 07:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 07:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 07:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 07:41:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 07:51:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 08:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 08:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 08:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 08:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 08:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 08:51:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 09:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 09:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 09:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 09:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 09:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 09:51:34][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 10:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 10:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 10:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 10:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 10:41:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 10:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 11:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 11:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 11:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 11:31:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 11:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 11:51:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 12:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 12:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 12:21:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 12:31:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 12:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 12:51:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 13:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 13:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 13:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 13:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 13:41:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 13:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 14:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 14:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 14:21:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 14:31:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 14:41:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 14:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 15:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 15:11:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 15:21:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 15:31:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 15:41:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 15:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 16:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 16:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 16:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 16:31:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 16:41:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 16:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 17:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 17:11:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 17:21:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 17:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 17:41:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 17:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 18:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 18:11:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 18:21:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 18:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 18:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 18:51:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 19:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 19:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 19:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 19:31:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 19:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 19:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 20:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 20:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 20:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 20:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 20:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 20:51:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 21:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 21:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 21:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 21:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 21:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 22:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 22:11:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 22:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 22:31:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 22:41:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 22:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 23:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 23:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 23:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 23:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 23:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-08 23:51:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 00:01:34][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 00:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 00:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 00:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 00:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 00:51:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 01:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 01:11:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 01:21:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 01:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 01:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 01:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 02:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 02:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 02:21:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 02:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 02:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 02:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 03:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 03:11:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 03:21:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 03:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 03:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 03:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 04:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 04:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 04:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 04:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 04:41:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 04:51:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 05:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 05:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 05:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 05:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 05:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 05:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 06:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 06:11:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 06:21:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 06:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 06:41:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 06:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 07:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 07:11:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 07:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 07:31:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 07:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 07:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 08:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 08:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 08:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 08:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 08:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 08:51:34][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 09:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 09:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 09:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 09:31:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 09:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 09:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 10:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 10:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 10:21:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 10:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 10:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 10:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 11:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 11:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 11:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 11:31:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 11:41:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 11:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 12:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 12:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 12:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 12:31:34][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 12:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 12:51:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 13:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 13:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 13:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 13:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 13:41:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 13:51:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 14:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 14:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 14:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 14:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 14:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 14:51:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 15:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 15:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 15:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 15:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 15:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 15:51:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 16:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 16:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 16:21:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 16:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 16:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 16:51:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 17:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 17:11:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 17:21:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 17:31:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 17:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 17:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 18:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 18:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 18:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 18:31:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 18:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 18:51:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 19:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 19:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 19:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 19:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 19:41:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 19:51:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 20:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 20:11:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 20:21:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 20:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 20:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 20:51:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 21:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 21:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 21:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 21:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 21:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 21:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 22:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 22:11:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 22:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 22:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 22:41:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 22:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 23:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 23:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 23:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 23:31:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 23:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-09 23:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 00:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 00:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 00:21:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 00:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 00:41:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 00:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 01:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 01:11:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 01:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 01:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 01:41:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 01:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 02:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 02:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 02:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 02:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 02:41:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 02:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 03:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 03:11:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 03:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 03:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 03:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 03:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 04:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 04:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 04:21:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 04:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 04:41:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 04:51:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 05:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 05:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 05:21:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 05:31:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 05:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 05:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 06:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 06:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 06:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 06:31:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 06:41:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 06:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 07:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 07:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 07:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 07:31:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 07:41:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 07:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 08:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 08:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 08:21:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 08:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 08:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 19:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 19:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 19:21:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 19:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 19:41:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 19:51:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 20:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 20:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 20:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 20:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 20:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 20:51:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 21:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 21:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 21:21:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 21:31:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 21:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 21:51:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 22:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 22:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 22:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 22:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 22:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 22:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 23:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 23:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 23:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 23:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 23:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-10 23:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 00:01:34][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 00:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 00:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 00:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 00:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 00:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 01:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 01:11:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 01:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 01:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 01:41:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 01:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 02:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 02:11:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 02:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 02:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 02:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 02:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 03:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 03:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 03:21:34][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 03:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 03:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 03:51:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 04:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 04:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 04:21:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 04:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 04:41:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 04:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 05:01:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 05:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 05:21:31][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 05:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 05:41:33][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 05:51:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 06:01:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 06:11:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 06:21:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-01-11 06:31:32][ordersHistory] Failed connect to kingfisher.retailcrm.ru:443; Operation now in progress
+[2022-02-07 15:21:18][customersEdit] I/O operation timed out
+[2022-02-28 14:32:42][ordersHistory] Resolving timed out after 30538 milliseconds
+[2022-02-28 14:42:41][ordersHistory] Resolving timed out after 30549 milliseconds
+[2022-02-28 14:52:41][ordersHistory] Resolving timed out after 30542 milliseconds
+[2022-07-21 04:50:27][ordersHistory] Internal Server Error
+[2022-08-14 11:22:02][ordersHistory] Operation timed out after 30001 milliseconds with 0 out of 0 bytes received
+[2022-08-14 11:42:02][ordersHistory] Operation timed out after 30002 milliseconds with 0 out of 0 bytes received
+[2022-11-25 13:35:07][customersFixExternalIds] Errors in the input parameters id = 106290
+[2022-11-25 13:35:07][customersFixExternalIds] Specify customer name 
+[2022-11-25 13:35:15][customersFixExternalIds] Errors in the input parameters id = 108178
+[2022-11-25 13:35:15][customersFixExternalIds] Specify customer name 
+[2022-11-25 13:35:16][customersFixExternalIds] Errors in the input parameters id = 108257
+[2022-11-25 13:35:16][customersFixExternalIds] Specify customer name 
+[2022-11-25 13:35:17][customersFixExternalIds] Errors in the input parameters id = 108257
+[2022-11-25 13:35:17][customersFixExternalIds] Specify customer name 
+[2022-11-25 13:35:27][customersFixExternalIds] Errors in the input parameters id = 108630
+[2022-11-25 13:35:27][customersFixExternalIds] Specify customer name 
+[2022-11-25 13:35:28][customersFixExternalIds] Errors in the input parameters id = 108663
+[2022-11-25 13:35:28][customersFixExternalIds] Specify customer name 
+[2022-11-25 13:35:29][customersFixExternalIds] Errors in the input parameters id = 108663
+[2022-11-25 13:35:29][customersFixExternalIds] Specify customer name 
+[2022-11-25 13:35:30][ordersUpload] Orders are loaded with errors
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB602 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB603 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB604 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB605 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB606 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB607 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB608 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB609 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB610 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB611 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB612 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB613 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB614 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB615 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB616 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB617 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB618 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB619 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB620 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB621 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB622 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB623 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB624 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB625 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB626 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB627 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB628 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB629 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB630 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB631 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB632 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB633 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB634 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB635 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB636 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB637 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB638 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB639 already exists. 
+[2022-11-25 13:35:30][ordersUpload] Order with externalId=CB640 already exists. 

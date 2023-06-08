@@ -1,0 +1,64 @@
+//Определение классов для структуры сайта
+
+//Цвет Body
+.colorBody(@background: #fff, @color: #000) {
+  body {
+    background: @background;
+    color: @color;
+  }
+}
+//Прижатый к низу футер
+.bottomFooter(@classname: global) {
+  html, body {
+    height:100%;
+      #@{classname} {
+        //min-height: 100%;
+      }
+  }
+}
+//Фиксированный сайт
+.siteFixed(@width: 1000px, @padding: 0, @margin: 0 auto) {
+  width: @width;
+  margin: 0 auto;
+}
+
+//Полурезина сайт
+.siteResp(@max: 1025px, @min: 768px) {
+  width: 100%;
+  max-width: @max;
+  min-width: @min;
+  margin: 0 auto;
+  position: relative;
+  //z-index:3;
+}
+
+//Разработчик
+.dev_text(@font: 1.4em 'Arial, Helvetica, sans-serif', @color: #666, @color_name: #000) {
+  font: @font;
+  color:@color;
+    span {
+      font-weight: bold;
+      color: @color_name;
+    }
+}
+
+//Кнопки
+.btn_icon(@classname: btn1, @display: block, @content: '*', @border: 1px solid @border_color, @padding: 0, @text-align: center, @font: 1.3em 'Arial', @color: #000, @bg: '', @text-transform: uppercase) {
+    .@{classname} {
+      display: table;
+      cursor: pointer;
+      border: @border;
+      padding: @padding;
+      text-align: @text-align;
+      background: @bg;
+        span {
+          font: @font;
+          color: @color;
+          position: relative;
+          text-transform: @text-transform;
+            &:after {
+              .flIcon(@left: 100%, @top:-2px, @content: url(@content));
+            }
+        }
+    }
+}

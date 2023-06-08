@@ -1,0 +1,28 @@
+*.txt
+
+*_old
+
+.htaccess
+
+# yii console command
+/yii*
+
+# phpstorm project files
+.idea
+
+# composer vendor dir
+/vendor
+
+# composer itself is not needed
+composer.phar
+
+# игнорировать все файлы .zip и .rar
+*.zip
+*.rar
+
+#docker окружение + внутренние временные файлы idea
+/.idea
+/docker
+/storage
+/.cache
+docker-compose.yml

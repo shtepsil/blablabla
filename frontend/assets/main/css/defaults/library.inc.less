@@ -1,0 +1,357 @@
+/*
+*   06.04.2015
+*   .9
+*   xleeke
+*/
+
+//Библиотека статичных классов
+
+//Отступы
+.box-sizing(@what_box: border-box) {
+  -webkit-box-sizing: @what_box;
+  -moz-box-sizing: @what_box;
+  -o-box-sizing: @what_box;
+  -ms-box-sizing: @what_box;
+  -khtml-box-sizing: @what_box;
+  box-sizing: @what_box;
+  behavior: url(../ie/PIE.htc);
+}
+
+//Круглые углы
+.border-radius(@what_box: 6px) {
+  overflow: hidden;
+  -webkit-border-radius: @what_box;
+  -moz-border-radius: @what_box;
+  -o-border-radius: @what_box;
+  -ms-border-radius: @what_box;
+  -khtml-border-radius: @what_box;
+  border-radius: @what_box;
+  behavior: url(../ie/PIE.htc);
+}
+
+//Прозрачность
+.opacity(@num, @ie) {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=@ie)";
+  filter: alpha(opacity=@ie);
+  -moz-opacity: @num;
+  -khtml-opacity: @num;
+  opacity: @num;
+}
+
+//Свойства background
+.backgroundProp(@image: '', @bg_c: transparent, @repeat: no-repeat, @position: center center, @size: '') {
+  background-image: url(@image);
+  background-color: @bg_c;
+  background-repeat: @repeat;
+  background-position: @position;
+  background-size: @size;
+}
+
+//Цвет выделенного текста
+.selection(@bgColor:#eef9ff, @textColor: #252525) {
+  ::selection { background:@bgColor; color:@textColor;}
+  ::-moz-selection { background:@bgColor; color:@textColor;}
+}
+
+//Цвет текста placeholder
+.textPlaceholder(@color:#979797) {
+  &:-moz-placeholder {color:@color;}
+  &::-moz-placeholder {color:@color;}
+  &::-webkit-input-placeholder {color:@color;}
+  &:-ms-input-placeholder {color:@color;}
+}
+
+//Время анимации
+.transition(@time: 0.5s, @animtype: ease-out) {
+  -webkit-transition: @animtype @time;
+  -moz-transition: @animtype @time;
+  -o-transition: @animtype @time;
+  transition: @animtype @time;
+}
+
+.transitionProp(@argumants) {
+  -webkit-transition: @arguments;
+  -moz-transition: @arguments;
+  -o-transition: @arguments;
+  transition: @arguments;
+}
+
+//Свойства transform
+.transformProp(@param) {
+  -webkit-transform: @param;
+  -moz-transform: @param;
+  -o-transform: @param;
+  -ms-transform: @param;
+  -khtml-transform: @param;
+  transform: @param;
+}
+
+//Градиент
+.linear-gradient(@first, @second) {
+  background: @first;
+  background: -moz-linear-gradient(@first, @second);
+  background: -webkit-linear-gradient(@first, @second);
+  background: -o-linear-gradient(@first, @second);
+  background: -ms-linear-gradient(@first, @second);
+  background: -khtml-linear-gradient(@first, @second);
+  background: linear-gradient(@first, @second);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=@first, endColorstr=@second, GradientType=0);
+}
+
+//Тени
+.box-shadow(@arguments) {
+  -webkit-box-shadow: @arguments;
+  -o-box-shadow: @arguments;
+  -moz-box-shadow: @arguments;
+  -khtml-box-shadow: @arguments;
+  box-shadow: @arguments;
+}
+
+.keyFrames(@name, @classname) {
+
+  @keyframes @name {
+    .mixin(@classname);
+  }
+
+  @-khtml-keyframes @name {
+    .mixin(@classname);
+  }
+
+  @-moz-keyframes @name {
+    .mixin(@classname);
+  }
+
+  @-webkit-keyframes @name {
+    .mixin(@classname);
+  }
+
+  @-ms-keyframes @name {
+    .mixin(@classname);
+  }
+
+  @-o-keyframes @name{
+    .mixin(@classname);
+  }
+
+}
+
+//параметр animate
+.animate(@name: animName, @duration: 1s, @antifu: ease, @delay: 0, @count: 1, @direction: normal) {
+  // Название анимации (keyFrames)
+  -webkit-animation-name: @name;
+  -moz-animation-name: @name;
+  -o-animation-name: @name;
+  animation-name: @name;
+  // Время действия одного цикла
+  -webkit-animation-duration: @duration;
+  -moz-animation-duration: @duration;
+  -o-animation-duration: @duration;
+  animation-duration: @duration;
+  // Используется для равномерного, плавного воспроизведения анимации.
+  /*
+   *  linear 	Анимация имеет одинаковую скорость от начала до конца
+   *  ease 	Значение по умолчанию. Анимация начинается медленно, затем ускоряется, перед завершением опять замедляется
+   *  ease-in 	Анимация имеет замедленное начало
+   *  ease-out 	Анимация имеет замедленное завершение
+   *  ease-in-out 	Анимация имеет замедленное начало и замедленное завершение
+   *  cubic-bezier(n,n,n,n) 	Определение ваших собственных значений в кубической функции Безье Допустимыми значениями являются числовые значения то 0 до 1
+  */
+  -webkit-animation-timing-function: @antifu;
+  -moz-animation-timing-function: @antifu;
+  -o-animation-timing-function: @antifu;
+  animation-timing-function: @antifu;
+  // Задержка
+  -webkit-animation-delay: @delay;
+  -moz-animation-delay: @delay;
+  -o-animation-delay: @delay;
+  animation-delay: @delay;
+  // Определяет, сколько раз анимация должна быть воспроизведена.
+  /*
+   * n 	Число, определяющее, сколько раз воспроизводить анимацию
+   * infinite 	Указывает, что анимация будет воспроизводиться неограниченное число раз (бесконечно)
+  */
+  -webkit-animation-iteration-count: @count;
+  -moz-animation-iteration-count: @count;
+  -o-animation-iteration-count: @count;
+  animation-iteration-count: @count;
+  // Свойство animation-direction определяет, следует ли воспроизводить анимацию в обратном порядке на чередующихся анимационных циклах.
+  /*
+   * normal 	Значение по умолчанию. Анимация будет воспроизводиться нормально (в прямом направлении)
+   * alternate 	Анимацию следует воспроизводить в обратном направлении на четных циклах
+  */
+  -webkit-animation-direction: @direction;
+  -moz-animation-direction: @direction;
+  -o-animation-direction: @direction;
+  animation-direction: @direction;
+}
+
+.trans3D(@type: preserve-3d, @preserve: 2000px, @position: 50% 50%) {
+  -moz-perspective: @preserve;
+  -moz-perspective-origin: @position;
+  -moz-transform-style: @type;
+
+  -webkit-perspective: @preserve;
+  -webkit-perspective-origin: @position;
+  -webkit-transform-style: @type;
+
+  -o-perspective: @preserve;
+  -o-perspective-origin: @position;
+  -o-transform-style: @type;
+
+  -ms-perspective: @preserve;
+  -ms-perspective-origin: @position;
+  -ms-transform-style: @type;
+
+  perspective: @preserve;
+  perspective-origin: @position;
+  transform-style: @type;
+}
+
+.transOrigin(@position: center center) {
+  -webkit-transform-origin: @position;
+  -moz-transform-origin: @position;
+  -o-transform-origin: @position;
+  -ms-transform-origin: @position;
+  transform-origin: @position;
+}
+
+.backface(@type: hidden) {
+  -webkit-backface-visibility: @type;
+  -moz-backface-visibility: @type;
+  -o-backface-visibility: @type;
+  -ms-backface-visibility: @type;
+  backface-visibility: @type;
+}
+
+//Отчистка
+.clear {
+  &:after {
+    clear: both;
+    display: block;
+    content: '';
+  }
+}
+
+//Пропорциональная высота (для &:before)
+.heightProp(@mt: 100%) {
+  display:block;
+  content:'';
+  margin-top: @mt;
+}
+
+//Таблицы
+.table {
+  display:table;
+    .tableRow {
+      display:table-row;
+    }
+    .tableCell {
+      display:table-cell;
+    }
+}
+
+//Фигуры (значок треугольника)
+.triangle(@position: absolute, @top: 7px, @right: 0, @content: '▼', @fontS: .5em, @color: #666666) {
+  position: @position;
+  z-index: 8;
+  top: @top;
+  right: @right;
+  content: @content;
+  font-size: @fontS;
+  display: block;
+  color: @color;
+}
+
+//Плавающий элемент (значок)
+.flIcon(@position: absolute, @zindex: 9, @top: 0, @left: 0, @content: '', @display: block, @width: auto, @height: auto) {
+  position: @position;
+  z-index: @zindex;
+  top: @top;
+  left: @left;
+  content: @content;
+
+  display: @display;
+  width: @width;
+  height: @height;
+}
+
+//Позиционирование
+.position(@position: absolute, @zindex: 9, @top: 0, @left: 0, @right: auto, @bottom: auto, @display: block, @width: 100%, @height: auto) {
+  position: @position;
+  z-index: @zindex;
+  top: @top;
+  left: @left;
+  right: @right;
+  bottom: @bottom;
+
+  display: @display;
+  width: @width;
+  height: @height;
+}
+
+//Ссылки
+a {
+  text-decoration: none;
+  cursor:pointer;
+    //.transition;
+    //  &:hover {.transition;}
+}
+
+//Обёртки
+.wrapperOverflow {overflow:hidden;}
+.wrapperShowDisplay(@type: block) {display:@type !important;}
+.wrapperImg(@maxheight: auto) {img {display:block;max-width: 100%;max-height: @maxheight}}
+.wrapperImgCenter {
+  position: relative;
+  img {
+    display:block;
+    position: absolute;
+    z-index:1;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+  }
+}
+.wrapperLeft {display:block;float:left!important;}
+.wrapperRight {display:block;float:right!important;}
+.wrapperCenter {text-align: center!important;}
+.textLeft {text-align: left!important;}
+.textRight {text-align: right!important;}
+.wrapperBlocks {.clear;}
+
+.absolute(@zin: 9, @t: 0, @l: 0, @d: block, @w: 100%, @h: 100%) {
+  position: absolute;
+  z-index: @zin;
+  top: @t;
+  left: @l;
+  display: @d;
+  width: @w;
+  height: @h;
+}
+
+//Базовые настройки
+* {
+  .box-sizing;
+}
+
+body {
+  font-size:10px;
+}
+
+.img {display:block;max-width:100%;}
+
+.hr(@height: 1px, @color: #d8d7d7) {
+  border:none;
+  height: @height;
+  color: @color;
+  background-color: @color;
+}
+
+.pre {white-space: pre !important;}
+.pre-wrap {white-space: pre-wrap !important;}
+.pre-line {white-space: pre-line !important;}
+
+button, [class*=btn] {border: 0;cursor: pointer;}

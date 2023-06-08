@@ -1,0 +1,151 @@
+.goodsBlock {
+  .title, .descript {
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+    z-index: 9;
+    &:hover {
+      overflow: visible;
+    }
+    span {
+      position: absolute;
+      z-index: 9;
+      top: 0;
+      left: 0;
+      display: block;
+      width: 100%;
+      background-color: @white;
+    }
+  }
+  .descript {
+    z-index: 8;
+  }
+}
+
+.articleBlocks {
+  &.bgWave {
+    padding-top: 10px;
+  }
+}
+.articleBlock {
+  .wrapperText {
+    .title {
+      height: 40px;
+      overflow: hidden;
+      position: relative;
+      z-index: 9;
+      &:hover {
+        overflow: visible;
+      }
+      span {
+        position: absolute;
+        z-index: 9;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        background-color: @white;
+      }
+    }
+    .desc {
+      height: 73px;
+      overflow: hidden;
+      position: relative;
+      z-index: 8;
+      padding-bottom: 0;
+      margin-bottom: 12px;
+      &:hover {
+        overflow: visible;
+      }
+      span {
+        position: absolute;
+        z-index: 9;
+        top: 13px;
+        left: 0;
+        display: block;
+        width: 100%;
+        background-color: @white;
+      }
+    }
+  }
+}
+
+.Article.articleInner {
+  padding-bottom: 20px;
+  + .Article.articleInner {
+    padding-bottom: 50px;
+    .title {
+      padding:0;
+    }
+  }
+  .articleBlock {
+    .wrapperText {
+      .title {
+        height: auto;
+        overflow: visible;
+        span {
+          position: relative;
+        }
+      }
+      .desc {
+        height: auto;
+        overflow: visible;
+        p {
+          padding-bottom: 0 !important;
+        }
+        span {
+          position: relative;
+          top: 0;
+        }
+      }
+    }
+  }
+}
+
+
+@media all and (max-width: 999px) {
+  .goodsBlock {
+    .title, .descript {
+      height: auto;
+      overflow: visible;
+      span {
+        position: relative;
+      }
+    }
+  }
+
+  .articleBlock {
+    .image {
+      //float: left !important;
+      //margin-bottom: 20px !important;
+    }
+    .wrapperText {
+      .title {
+        height: auto;
+        overflow: visible;
+        span {
+          position: relative;
+        }
+      }
+      .desc {
+        height: auto;
+        overflow: visible;
+        p {
+          padding-bottom: 0 !important;
+        }
+        span {
+          position: relative;
+          top: 0;
+        }
+      }
+    }
+  }
+}
+
+@media all and (max-width: 767px) {
+
+}
+
+@media all and (max-width: 479px) {
+
+}

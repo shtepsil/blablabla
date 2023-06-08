@@ -1,0 +1,1783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2016-09-06 14:18:16">
+  <shop>
+    <name>KingFisher</name>
+    <categories>
+      <category id="9">Морепродукты</category>
+      <category id="10" parentId="9">Гребешок</category>
+      <category id="11" parentId="9">Мидии</category>
+      <category id="14">Рыба</category>
+      <category id="15" parentId="14">Охлажденная рыба</category>
+      <category id="16" parentId="14">Замороженная рыба</category>
+      <category id="18" parentId="40">Соусы</category>
+      <category id="19" parentId="9">Креветки</category>
+      <category id="29" parentId="14">Филе из рыбы</category>
+      <category id="30" parentId="14">Рыба Копченая </category>
+      <category id="31" parentId="9">Кальмары</category>
+      <category id="32" parentId="9">Беспозвоночные</category>
+      <category id="33" parentId="9">Морской коктейль</category>
+      <category id="38" parentId="39">Икра красная</category>
+      <category id="39">Икра</category>
+      <category id="40">Бакалея </category>
+      <category id="41" parentId="42">Лапша </category>
+      <category id="42" parentId="40">Макароны</category>
+      <category id="43" parentId="40">Сыр</category>
+      <category id="44" parentId="40">Масла</category>
+    </categories>
+    <offers>
+      <offer id="3" productId="3" quantity="30">
+        <categoryId>10</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Гребешок обработанный 10/20</name>
+        <productName>Гребешок обработанный 10/20</productName>
+        <price>8800</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>6200</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=3</url>
+        <picture>http://www.kingfisher.kz/uploads/items/3_img_list.jpg</picture>
+        <param code="article" name="Артикул">12345</param>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="773" productId="3" quantity="30">
+        <categoryId>10</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Гребешок обработанный 10/20(цена за штуку)</name>
+        <productName>Гребешок обработанный 10/20</productName>
+        <price>8800</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>6200</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=3</url>
+        <picture>http://www.kingfisher.kz/uploads/items/3_img_list.jpg</picture>
+        <param code="article" name="Артикул">12345</param>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="4" productId="4" quantity="0">
+        <categoryId>15</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Сибас охлажденный весом от 1000 до 1500 гр Греция</name>
+        <productName>Сибас охлажденный весом от 1000 до 1500 гр Греция</productName>
+        <price>8000</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>5000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=4</url>
+        <picture>http://www.kingfisher.kz/uploads/items/4_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="774" productId="4" quantity="0">
+        <categoryId>15</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Сибас охлажденный весом от 1000 до 1500 гр Греция(цена за штуку)</name>
+        <productName>Сибас охлажденный весом от 1000 до 1500 гр Греция</productName>
+        <price>8000</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>5000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=4</url>
+        <picture>http://www.kingfisher.kz/uploads/items/4_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="5" productId="5" quantity="1">
+        <categoryId>16</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Нерка - дикий лосось от 2 кг до 3 кг без головы</name>
+        <productName>Нерка - дикий лосось от 2 кг до 3 кг без головы</productName>
+        <price>2390</price>
+        <productActivity>N</productActivity>
+        <purchasePrice>1400</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=5</url>
+        <picture>http://www.kingfisher.kz/uploads/items/5_img_list.png</picture>
+        <param code="weight" name="Вес">3000</param>
+      </offer>
+      <offer id="775" productId="5" quantity="1">
+        <categoryId>16</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Нерка - дикий лосось от 2 кг до 3 кг без головы(цена за штуку)</name>
+        <productName>Нерка - дикий лосось от 2 кг до 3 кг без головы</productName>
+        <price>7170</price>
+        <productActivity>N</productActivity>
+        <purchasePrice>4200</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=5</url>
+        <picture>http://www.kingfisher.kz/uploads/items/5_img_list.png</picture>
+        <param code="weight" name="Вес">3000</param>
+      </offer>
+      <offer id="6" productId="6" quantity="0">
+        <categoryId>18</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Соус-маринад ТЕРИЯКИ YAMASA NEW</name>
+        <productName>Соус-маринад ТЕРИЯКИ YAMASA NEW</productName>
+        <price>3500</price>
+        <productActivity>N</productActivity>
+        <purchasePrice>3250</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=6</url>
+        <picture>http://www.kingfisher.kz/uploads/items/6_img_list.jpg</picture>
+        <param code="article" name="Артикул">4903001028058</param>
+      </offer>
+      <offer id="7" productId="7" quantity="30">
+        <categoryId>15</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Сибас Охлажденный весом от 300 до 400 гр  Греция</name>
+        <productName>Сибас Охлажденный весом от 300 до 400 гр  Греция</productName>
+        <price>5500</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>4300</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=7</url>
+        <picture>http://www.kingfisher.kz/uploads/items/7_img_list.png</picture>
+        <param code="article" name="Артикул">РО045</param>
+        <param code="weight" name="Вес">400</param>
+      </offer>
+      <offer id="777" productId="7" quantity="30">
+        <categoryId>15</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Сибас Охлажденный весом от 300 до 400 гр  Греция(цена за штуку)</name>
+        <productName>Сибас Охлажденный весом от 300 до 400 гр  Греция</productName>
+        <price>2200</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>1720</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=7</url>
+        <picture>http://www.kingfisher.kz/uploads/items/7_img_list.png</picture>
+        <param code="article" name="Артикул">РО045</param>
+        <param code="weight" name="Вес">400</param>
+      </offer>
+      <offer id="14" productId="14" quantity="30">
+        <categoryId>15</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Сёмга Атлантическая охлажденная, 6-7 кг, Норвегия</name>
+        <productName>Сёмга Атлантическая охлажденная, 6-7 кг, Норвегия</productName>
+        <price>5999</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>5200</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=14</url>
+        <picture>http://www.kingfisher.kz/uploads/items/563c889c517ef_img_list.jpg</picture>
+        <param code="weight" name="Вес">6500</param>
+      </offer>
+      <offer id="7714" productId="14" quantity="30">
+        <categoryId>15</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Сёмга Атлантическая охлажденная, 6-7 кг, Норвегия(цена за штуку)</name>
+        <productName>Сёмга Атлантическая охлажденная, 6-7 кг, Норвегия</productName>
+        <price>38993.5</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>33800</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=14</url>
+        <picture>http://www.kingfisher.kz/uploads/items/563c889c517ef_img_list.jpg</picture>
+        <param code="weight" name="Вес">6500</param>
+      </offer>
+      <offer id="15" productId="15" quantity="20">
+        <categoryId>19</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Креветки Тигровые размер 21/25, в панцире без головы</name>
+        <productName>Креветки Тигровые размер 21/25, в панцире без головы</productName>
+        <price>4000</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>2000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=15</url>
+        <picture>http://www.kingfisher.kz/uploads/items/563ccf433641f_img_list.jpg</picture>
+        <param code="article" name="Артикул">456845</param>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="31" productId="31" quantity="100">
+        <categoryId>15</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name> Дорадо Охлажденный вес 300 - 400 гр/шт Греция</name>
+        <productName> Дорадо Охлажденный вес 300 - 400 гр/шт Греция</productName>
+        <price>5500</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>4300</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=31</url>
+        <picture>http://www.kingfisher.kz/uploads/items/31_img_list.png</picture>
+        <param code="article" name="Артикул">123</param>
+        <param code="weight" name="Вес">350</param>
+      </offer>
+      <offer id="7731" productId="31" quantity="100">
+        <categoryId>15</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name> Дорадо Охлажденный вес 300 - 400 гр/шт Греция(цена за штуку)</name>
+        <productName> Дорадо Охлажденный вес 300 - 400 гр/шт Греция</productName>
+        <price>1925</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>1505</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=31</url>
+        <picture>http://www.kingfisher.kz/uploads/items/31_img_list.png</picture>
+        <param code="article" name="Артикул">123</param>
+        <param code="weight" name="Вес">350</param>
+      </offer>
+      <offer id="36" productId="36" quantity="233">
+        <categoryId>19</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Креветка Королевская Вареная  40/60 в панцире с головой </name>
+        <productName>Креветка Королевская Вареная  40/60 в панцире с головой </productName>
+        <price>2200</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>2000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=36</url>
+        <picture>http://www.kingfisher.kz/uploads/items/36_img_list.png</picture>
+        <param code="article" name="Артикул">123</param>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="37" productId="37" quantity="0">
+        <categoryId>16</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Кета (Дикий Лосось)</name>
+        <productName>Кета (Дикий Лосось)</productName>
+        <price>2200</price>
+        <productActivity>N</productActivity>
+        <purchasePrice>1400</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=37</url>
+        <picture>http://www.kingfisher.kz/uploads/items/565e90f6835b3_img_list.jpg</picture>
+        <param code="article" name="Артикул">045045</param>
+      </offer>
+      <offer id="38" productId="38" quantity="100">
+        <categoryId>11</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Мидии на раковине  замороженные 40/60 Киви,  Новая Зеландия </name>
+        <productName>Мидии на раковине  замороженные 40/60 Киви,  Новая Зеландия </productName>
+        <price>4800</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>1300</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=38</url>
+        <picture>http://www.kingfisher.kz/uploads/items/38_img_list.png</picture>
+        <param code="article" name="Артикул">000265</param>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="41" productId="41" quantity="100">
+        <categoryId>16</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Тунец  Yellowfin филе, Индонезия, упаковка 350 - 500 гр </name>
+        <productName>Тунец  Yellowfin филе, Индонезия, упаковка 350 - 500 гр </productName>
+        <price>8500</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>5500</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=41</url>
+        <picture>http://www.kingfisher.kz/uploads/items/41_img_list.png</picture>
+        <param code="weight" name="Вес">454</param>
+      </offer>
+      <offer id="42" productId="42" quantity="100">
+        <categoryId>16</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Семга Атлантическая 6-7 кг замороженная, Норвегия </name>
+        <productName>Семга Атлантическая 6-7 кг замороженная, Норвегия </productName>
+        <price>4200</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>2800</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=42</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56f4d22598dda_img_list.png</picture>
+        <param code="weight" name="Вес">6500</param>
+      </offer>
+      <offer id="7742" productId="42" quantity="100">
+        <categoryId>16</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Семга Атлантическая 6-7 кг замороженная, Норвегия (цена за штуку)</name>
+        <productName>Семга Атлантическая 6-7 кг замороженная, Норвегия </productName>
+        <price>27300</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>18200</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=42</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56f4d22598dda_img_list.png</picture>
+        <param code="weight" name="Вес">6500</param>
+      </offer>
+      <offer id="43" productId="43" quantity="1000">
+        <categoryId>15</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Форель Атлантическая охлажденная 3-4 кг, Норвегия</name>
+        <productName>Форель Атлантическая охлажденная 3-4 кг, Норвегия</productName>
+        <price>5490</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>4500</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=43</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56f4d3648a06d_img_list.png</picture>
+        <param code="weight" name="Вес">3500</param>
+      </offer>
+      <offer id="7743" productId="43" quantity="1000">
+        <categoryId>15</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Форель Атлантическая охлажденная 3-4 кг, Норвегия(цена за штуку)</name>
+        <productName>Форель Атлантическая охлажденная 3-4 кг, Норвегия</productName>
+        <price>19215</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>15750</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=43</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56f4d3648a06d_img_list.png</picture>
+        <param code="weight" name="Вес">3500</param>
+      </offer>
+      <offer id="44" productId="44" quantity="100">
+        <categoryId>15</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Семга Атлантическая Охлажденная вес 3-4 кг, Норвегия</name>
+        <productName>Семга Атлантическая Охлажденная вес 3-4 кг, Норвегия</productName>
+        <price>5999</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>5400</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=44</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56f4d44d11b1a_img_list.png</picture>
+        <param code="weight" name="Вес">3500</param>
+      </offer>
+      <offer id="7744" productId="44" quantity="100">
+        <categoryId>15</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Семга Атлантическая Охлажденная вес 3-4 кг, Норвегия(цена за штуку)</name>
+        <productName>Семга Атлантическая Охлажденная вес 3-4 кг, Норвегия</productName>
+        <price>20996.5</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>18900</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=44</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56f4d44d11b1a_img_list.png</picture>
+        <param code="weight" name="Вес">3500</param>
+      </offer>
+      <offer id="45" productId="45" quantity="10">
+        <categoryId>29</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Филет на шкуре из Атлантической семги  </name>
+        <productName>Филет на шкуре из Атлантической семги  </productName>
+        <price>6600</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>5000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=45</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56f4ee372e74c_img_list.png</picture>
+        <param code="weight" name="Вес">200</param>
+      </offer>
+      <offer id="7745" productId="45" quantity="10">
+        <categoryId>29</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Филет на шкуре из Атлантической семги  (цена за штуку)</name>
+        <productName>Филет на шкуре из Атлантической семги  </productName>
+        <price>1320</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>1000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=45</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56f4ee372e74c_img_list.png</picture>
+        <param code="weight" name="Вес">200</param>
+      </offer>
+      <offer id="46" productId="46" quantity="0">
+        <categoryId>29</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Стейк Бабочка из Атлантической семги вес 150 гр.</name>
+        <productName>Стейк Бабочка из Атлантической семги вес 150 гр.</productName>
+        <price>6600</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>5000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=46</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56f4ef4138ccb_img_list.png</picture>
+        <param code="weight" name="Вес">150</param>
+      </offer>
+      <offer id="7746" productId="46" quantity="0">
+        <categoryId>29</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Стейк Бабочка из Атлантической семги вес 150 гр.(цена за штуку)</name>
+        <productName>Стейк Бабочка из Атлантической семги вес 150 гр.</productName>
+        <price>990</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>750</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=46</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56f4ef4138ccb_img_list.png</picture>
+        <param code="weight" name="Вес">150</param>
+      </offer>
+      <offer id="47" productId="47" quantity="1000">
+        <categoryId>29</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Стейк Подкова из Атлантической семги вес 200 гр</name>
+        <productName>Стейк Подкова из Атлантической семги вес 200 гр</productName>
+        <price>5600</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>4000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=47</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56f4f25742bb4_img_list.png</picture>
+        <param code="weight" name="Вес">200</param>
+      </offer>
+      <offer id="7747" productId="47" quantity="1000">
+        <categoryId>29</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Стейк Подкова из Атлантической семги вес 200 гр(цена за штуку)</name>
+        <productName>Стейк Подкова из Атлантической семги вес 200 гр</productName>
+        <price>1120</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>800</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=47</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56f4f25742bb4_img_list.png</picture>
+        <param code="weight" name="Вес">200</param>
+      </offer>
+      <offer id="48" productId="48" quantity="1000">
+        <categoryId>30</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Слайсы из копченого лосося Шотландского Копчения </name>
+        <productName>Слайсы из копченого лосося Шотландского Копчения </productName>
+        <price>8800</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>6000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=48</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56f4f64b8c517_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="49" productId="49" quantity="10">
+        <categoryId>19</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Креветка Северная размер 70/90, вареная</name>
+        <productName>Креветка Северная размер 70/90, вареная</productName>
+        <price>1900</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>1500</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=49</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56f505f9aee8c_img_list.png</picture>
+      </offer>
+      <offer id="50" productId="50" quantity="10">
+        <categoryId>19</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Креветка Салатная 100/200</name>
+        <productName>Креветка Салатная 100/200</productName>
+        <price>3400</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>2000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=50</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56f50a0512e9e_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="51" productId="51" quantity="10">
+        <categoryId>19</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Креветка Королевская 16/20 без головы</name>
+        <productName>Креветка Королевская 16/20 без головы</productName>
+        <price>4400</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>3000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=51</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56f5192271bcb_img_list.jpg</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="52" productId="52" quantity="10">
+        <categoryId>19</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Креветка Тигровая 16/20 в панцире</name>
+        <productName>Креветка Тигровая 16/20 в панцире</productName>
+        <price>3900</price>
+        <productActivity>N</productActivity>
+        <purchasePrice>3000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=52</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56f51e8e4d673_img_list.jpg</picture>
+      </offer>
+      <offer id="53" productId="53" quantity="10">
+        <categoryId>30</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Слайсы из копченого Эсколара </name>
+        <productName>Слайсы из копченого Эсколара </productName>
+        <price>6000</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>5000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=53</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56f523f610c44_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="54" productId="54" quantity="10">
+        <categoryId>30</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Эсколар копченый филе на шкуре</name>
+        <productName>Эсколар копченый филе на шкуре</productName>
+        <price>4700</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>4000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=54</url>
+        <picture>http://www.kingfisher.kz/uploads/items/54_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="55" productId="55" quantity="10">
+        <categoryId>31</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Кольца Кальмара</name>
+        <productName>Кольца Кальмара</productName>
+        <price>2500</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>1800</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=55</url>
+        <picture>http://www.kingfisher.kz/uploads/items/55_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="56" productId="56" quantity="10">
+        <categoryId>31</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Трубка Кальмара</name>
+        <productName>Трубка Кальмара</productName>
+        <price>1900</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>1200</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=56</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56f90e0ad2ac8_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="57" productId="57" quantity="10">
+        <categoryId>19</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Тигровая Креветка с головой</name>
+        <productName>Тигровая Креветка с головой</productName>
+        <price>7000</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>4000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=57</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56f90f1d505fd_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="58" productId="58" quantity="10">
+        <categoryId>11</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Мясо Мидий очищенное</name>
+        <productName>Мясо Мидий очищенное</productName>
+        <price>1800</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>1000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=58</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56f9155950bfe_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="59" productId="59" quantity="10">
+        <categoryId>32</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Каракатица, размер 40-60 </name>
+        <productName>Каракатица, размер 40-60 </productName>
+        <price>2600</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>2000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=59</url>
+        <picture>http://www.kingfisher.kz/uploads/items/59_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="60" productId="60" quantity="10">
+        <categoryId>32</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Осьминог Бэби, размер 40/60</name>
+        <productName>Осьминог Бэби, размер 40/60</productName>
+        <price>3000</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>2000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=60</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56f9191354edc_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="61" productId="61" quantity="10">
+        <categoryId>33</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Морской Коктейль Стандарт</name>
+        <productName>Морской Коктейль Стандарт</productName>
+        <price>1590</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>1000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=61</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56f91d2a5ab88_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="62" productId="62" quantity="0">
+        <categoryId>29</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Тилапия </name>
+        <productName>Тилапия </productName>
+        <price>1450</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>1000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=62</url>
+        <picture>http://www.kingfisher.kz/uploads/items/62_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="63" productId="63" quantity="10">
+        <categoryId>16</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Скумбрия (макрель атлантическая) 300-500</name>
+        <productName>Скумбрия (макрель атлантическая) 300-500</productName>
+        <price>1200</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>800</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=63</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56fa5bdf316e7_img_list.png</picture>
+        <param code="weight" name="Вес">1500</param>
+      </offer>
+      <offer id="64" productId="64" quantity="1000">
+        <categoryId>30</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Лосось Шотландское копчение </name>
+        <productName>Лосось Шотландское копчение </productName>
+        <price>6800</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>5000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=64</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56fa67220739e_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="65" productId="65" quantity="10">
+        <categoryId>30</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Форель Океаническая Шотландское копчение</name>
+        <productName>Форель Океаническая Шотландское копчение</productName>
+        <price>6600</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>5000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=65</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56fa67c760260_img_list.png</picture>
+        <param code="article" name="Артикул">0077</param>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="66" productId="66" quantity="10">
+        <categoryId>30</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Скумбрия (макрель) копченая</name>
+        <productName>Скумбрия (макрель) копченая</productName>
+        <price>1400</price>
+        <productActivity>N</productActivity>
+        <purchasePrice>800</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=66</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56fa6878e042f_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="67" productId="67" quantity="10">
+        <categoryId>30</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Нерка - дикий лосось копченый </name>
+        <productName>Нерка - дикий лосось копченый </productName>
+        <price>3800</price>
+        <productActivity>N</productActivity>
+        <purchasePrice>3000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=67</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56fa69173efb7_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="68" productId="68" quantity="10">
+        <categoryId>16</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Окунь морской размер 300 - 500</name>
+        <productName>Окунь морской размер 300 - 500</productName>
+        <price>2100</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>1200</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=68</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56fa6ae91e15c_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="69" productId="69" quantity="100">
+        <categoryId>16</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Черная Треска, вылов Канада</name>
+        <productName>Черная Треска, вылов Канада</productName>
+        <price>14500</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>10000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=69</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56fa6c65732ba_img_list.png</picture>
+        <param code="weight" name="Вес">1800</param>
+      </offer>
+      <offer id="7769" productId="69" quantity="100">
+        <categoryId>16</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Черная Треска, вылов Канада(цена за штуку)</name>
+        <productName>Черная Треска, вылов Канада</productName>
+        <price>26100</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>18000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=69</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56fa6c65732ba_img_list.png</picture>
+        <param code="weight" name="Вес">1800</param>
+      </offer>
+      <offer id="70" productId="70" quantity="100">
+        <categoryId>16</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Стейк-подкова из Семги (Норвегия)</name>
+        <productName>Стейк-подкова из Семги (Норвегия)</productName>
+        <price>5150</price>
+        <productActivity>N</productActivity>
+        <purchasePrice>4000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=70</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56fa6dc24bcdd_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="71" productId="71" quantity="10">
+        <categoryId>29</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Филе из Охлажденной Семги 2,2 - 2,5 кг</name>
+        <productName>Филе из Охлажденной Семги 2,2 - 2,5 кг</productName>
+        <price>10500</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>9000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=71</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56fa70cf9134e_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="72" productId="72" quantity="10">
+        <categoryId>29</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Филе из охлажденной Океанической Форели  1,5 - 2 кг</name>
+        <productName>Филе из охлажденной Океанической Форели  1,5 - 2 кг</productName>
+        <price>9600</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>8000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=72</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56fa716b9bc09_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="73" productId="73" quantity="10">
+        <categoryId>16</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Дорада  Замороженная 400 - 600 гр.</name>
+        <productName>Дорада  Замороженная 400 - 600 гр.</productName>
+        <price>4200</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>3000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=73</url>
+        <picture>http://www.kingfisher.kz/uploads/items/73_img_list.png</picture>
+        <param code="weight" name="Вес">500</param>
+      </offer>
+      <offer id="7773" productId="73" quantity="10">
+        <categoryId>16</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Дорада  Замороженная 400 - 600 гр.(цена за штуку)</name>
+        <productName>Дорада  Замороженная 400 - 600 гр.</productName>
+        <price>2100</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>1500</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=73</url>
+        <picture>http://www.kingfisher.kz/uploads/items/73_img_list.png</picture>
+        <param code="weight" name="Вес">500</param>
+      </offer>
+      <offer id="74" productId="74" quantity="10">
+        <categoryId>16</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Сибас Замороженный 400 - 600 гр.</name>
+        <productName>Сибас Замороженный 400 - 600 гр.</productName>
+        <price>4200</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>3000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=74</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56fcb9002e32f_img_list.png</picture>
+        <param code="weight" name="Вес">400</param>
+      </offer>
+      <offer id="7774" productId="74" quantity="10">
+        <categoryId>16</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Сибас Замороженный 400 - 600 гр.(цена за штуку)</name>
+        <productName>Сибас Замороженный 400 - 600 гр.</productName>
+        <price>1680</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>1200</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=74</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56fcb9002e32f_img_list.png</picture>
+        <param code="weight" name="Вес">400</param>
+      </offer>
+      <offer id="75" productId="75" quantity="10">
+        <categoryId>16</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Филе лосося трим D 1500 - 2000 гр.</name>
+        <productName>Филе лосося трим D 1500 - 2000 гр.</productName>
+        <price>5700</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>5000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=75</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56fcd022e918e_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="77" productId="77" quantity="10">
+        <categoryId>30</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Гравлакс (Gravad Lax), 800 - 1000 гр.</name>
+        <productName>Гравлакс (Gravad Lax), 800 - 1000 гр.</productName>
+        <price>10500</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>8000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=77</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56fcd4f25978c_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="78" productId="78" quantity="10">
+        <categoryId>19</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Креветка Королевская размер 26/30 очищенная </name>
+        <productName>Креветка Королевская размер 26/30 очищенная </productName>
+        <price>3900</price>
+        <productActivity>N</productActivity>
+        <purchasePrice>3000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=78</url>
+        <picture>http://www.kingfisher.kz/uploads/items/78_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="79" productId="79" quantity="10">
+        <categoryId>19</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Креветка Королевская очищенная размер 21/25</name>
+        <productName>Креветка Королевская очищенная размер 21/25</productName>
+        <price>4000</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>3000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=79</url>
+        <picture>http://www.kingfisher.kz/uploads/items/56fce5105cd19_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="80" productId="80" quantity="10">
+        <categoryId>31</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Кальмар Молодой размер 40 - 60</name>
+        <productName>Кальмар Молодой размер 40 - 60</productName>
+        <price>2600</price>
+        <productActivity>N</productActivity>
+        <purchasePrice>2000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=80</url>
+        <picture>http://www.kingfisher.kz/uploads/items/80_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="82" productId="82" quantity="100">
+        <categoryId>38</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Икра Красная IKURA, 1 кг</name>
+        <productName>Икра Красная IKURA, 1 кг</productName>
+        <price>18490</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>12000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=82</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570b41e64335c_img_list.jpg</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="83" productId="83" quantity="1">
+        <categoryId>19</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Креветка Тигровая 16/20 в панцире (премиум)</name>
+        <productName>Креветка Тигровая 16/20 в панцире (премиум)</productName>
+        <price>4200</price>
+        <productActivity>N</productActivity>
+        <purchasePrice>3500</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=83</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570b6e0981de7_img_list.jpg</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="84" productId="84" quantity="100">
+        <categoryId>29</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Филе на шкуре из Атлантической Семги</name>
+        <productName>Филе на шкуре из Атлантической Семги</productName>
+        <price>6600</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>5000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=84</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570c46dc37772_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="85" productId="85" quantity="100">
+        <categoryId>29</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Филе из Нерки на шкуре</name>
+        <productName>Филе из Нерки на шкуре</productName>
+        <price>3900</price>
+        <productActivity>N</productActivity>
+        <purchasePrice>3000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=85</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570c48be7fbd2_img_list.png</picture>
+        <param code="weight" name="Вес">700</param>
+      </offer>
+      <offer id="7785" productId="85" quantity="100">
+        <categoryId>29</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Филе из Нерки на шкуре(цена за штуку)</name>
+        <productName>Филе из Нерки на шкуре</productName>
+        <price>2730</price>
+        <productActivity>N</productActivity>
+        <purchasePrice>2100</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=85</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570c48be7fbd2_img_list.png</picture>
+        <param code="weight" name="Вес">700</param>
+      </offer>
+      <offer id="86" productId="86" quantity="100">
+        <categoryId>29</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Стейк Подкова из Нерки</name>
+        <productName>Стейк Подкова из Нерки</productName>
+        <price>2900</price>
+        <productActivity>N</productActivity>
+        <purchasePrice>2500</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=86</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570c4a2842923_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="87" productId="87" quantity="100">
+        <categoryId>29</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Стейк Подкова из Кижуча</name>
+        <productName>Стейк Подкова из Кижуча</productName>
+        <price>2500</price>
+        <productActivity>N</productActivity>
+        <purchasePrice>2300</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=87</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570c4b323c109_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="88" productId="88" quantity="100">
+        <categoryId>16</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Семга Атлантическая 3-4 кг замороженная, Норвегия </name>
+        <productName>Семга Атлантическая 3-4 кг замороженная, Норвегия </productName>
+        <price>4200</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>3000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=88</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570c4d61c7407_img_list.png</picture>
+        <param code="weight" name="Вес">3500</param>
+      </offer>
+      <offer id="7788" productId="88" quantity="100">
+        <categoryId>16</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Семга Атлантическая 3-4 кг замороженная, Норвегия (цена за штуку)</name>
+        <productName>Семга Атлантическая 3-4 кг замороженная, Норвегия </productName>
+        <price>14700</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>10500</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=88</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570c4d61c7407_img_list.png</picture>
+        <param code="weight" name="Вес">3500</param>
+      </offer>
+      <offer id="89" productId="89" quantity="100">
+        <categoryId>15</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Форель Радужная Тургеньская </name>
+        <productName>Форель Радужная Тургеньская </productName>
+        <price>2600</price>
+        <productActivity>N</productActivity>
+        <purchasePrice>2000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=89</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570c5292df187_img_list.png</picture>
+        <param code="weight" name="Вес">300</param>
+      </offer>
+      <offer id="7789" productId="89" quantity="100">
+        <categoryId>15</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Форель Радужная Тургеньская (цена за штуку)</name>
+        <productName>Форель Радужная Тургеньская </productName>
+        <price>780</price>
+        <productActivity>N</productActivity>
+        <purchasePrice>600</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=89</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570c5292df187_img_list.png</picture>
+        <param code="weight" name="Вес">300</param>
+      </offer>
+      <offer id="90" productId="90" quantity="100">
+        <categoryId>29</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Филе Судака 120 - 300 гр.</name>
+        <productName>Филе Судака 120 - 300 гр.</productName>
+        <price>2500</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>2000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=90</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570c540dbc220_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="91" productId="91" quantity="100">
+        <categoryId>16</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Хек  200-300 гр.</name>
+        <productName>Хек  200-300 гр.</productName>
+        <price>1350</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>100</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=91</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570c593d72f77_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="92" productId="92" quantity="100">
+        <categoryId>16</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Филе Палтуса </name>
+        <productName>Филе Палтуса </productName>
+        <price>6950</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>6000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=92</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570c83046028f_img_list.png</picture>
+        <param code="weight" name="Вес">1400</param>
+      </offer>
+      <offer id="7792" productId="92" quantity="100">
+        <categoryId>16</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Филе Палтуса (цена за штуку)</name>
+        <productName>Филе Палтуса </productName>
+        <price>9730</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>8400</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=92</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570c83046028f_img_list.png</picture>
+        <param code="weight" name="Вес">1400</param>
+      </offer>
+      <offer id="93" productId="93" quantity="100">
+        <categoryId>16</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Форель Радужная 200 - 300 гр.</name>
+        <productName>Форель Радужная 200 - 300 гр.</productName>
+        <price>2400</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>2000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=93</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570c845bdd48d_img_list.png</picture>
+        <param code="weight" name="Вес">250</param>
+      </offer>
+      <offer id="7793" productId="93" quantity="100">
+        <categoryId>16</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Форель Радужная 200 - 300 гр.(цена за штуку)</name>
+        <productName>Форель Радужная 200 - 300 гр.</productName>
+        <price>600</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>500</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=93</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570c845bdd48d_img_list.png</picture>
+        <param code="weight" name="Вес">250</param>
+      </offer>
+      <offer id="94" productId="94" quantity="100">
+        <categoryId>16</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Треска Атлантическая </name>
+        <productName>Треска Атлантическая </productName>
+        <price>1700</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>1300</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=94</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570c85773b4d0_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="95" productId="95" quantity="100">
+        <categoryId>29</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Филе Трески </name>
+        <productName>Филе Трески </productName>
+        <price>2800</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>2000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=95</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570c86912b2b7_img_list.png</picture>
+        <param code="weight" name="Вес">500</param>
+      </offer>
+      <offer id="7795" productId="95" quantity="100">
+        <categoryId>29</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Филе Трески (цена за штуку)</name>
+        <productName>Филе Трески </productName>
+        <price>1400</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>1000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=95</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570c86912b2b7_img_list.png</picture>
+        <param code="weight" name="Вес">500</param>
+      </offer>
+      <offer id="96" productId="96" quantity="100">
+        <categoryId>29</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Нарезка из Семги для суши филадельфия</name>
+        <productName>Нарезка из Семги для суши филадельфия</productName>
+        <price>6400</price>
+        <productActivity>N</productActivity>
+        <purchasePrice>5500</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=96</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570c8843454c2_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="97" productId="97" quantity="100">
+        <categoryId>15</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Сибас Охлажденный 400 - 600 гр., Греция</name>
+        <productName>Сибас Охлажденный 400 - 600 гр., Греция</productName>
+        <price>5500</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>5100</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=97</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570c8c839612d_img_list.png</picture>
+        <param code="weight" name="Вес">500</param>
+      </offer>
+      <offer id="7797" productId="97" quantity="100">
+        <categoryId>15</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Сибас Охлажденный 400 - 600 гр., Греция(цена за штуку)</name>
+        <productName>Сибас Охлажденный 400 - 600 гр., Греция</productName>
+        <price>2750</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>2550</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=97</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570c8c839612d_img_list.png</picture>
+        <param code="weight" name="Вес">500</param>
+      </offer>
+      <offer id="98" productId="98" quantity="100">
+        <categoryId>15</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Сибас Охлажденный 600 - 800 гр., Греция</name>
+        <productName>Сибас Охлажденный 600 - 800 гр., Греция</productName>
+        <price>6800</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>6000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=98</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570c8d26379a6_img_list.png</picture>
+        <param code="weight" name="Вес">700</param>
+      </offer>
+      <offer id="7798" productId="98" quantity="100">
+        <categoryId>15</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Сибас Охлажденный 600 - 800 гр., Греция(цена за штуку)</name>
+        <productName>Сибас Охлажденный 600 - 800 гр., Греция</productName>
+        <price>4760</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>4200</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=98</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570c8d26379a6_img_list.png</picture>
+        <param code="weight" name="Вес">700</param>
+      </offer>
+      <offer id="99" productId="99" quantity="100">
+        <categoryId>15</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Дорада Охлажденная 400 - 600 гр., Греция</name>
+        <productName>Дорада Охлажденная 400 - 600 гр., Греция</productName>
+        <price>5500</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>4500</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=99</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570c8df00cf6c_img_list.png</picture>
+        <param code="weight" name="Вес">500</param>
+      </offer>
+      <offer id="7799" productId="99" quantity="100">
+        <categoryId>15</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Дорада Охлажденная 400 - 600 гр., Греция(цена за штуку)</name>
+        <productName>Дорада Охлажденная 400 - 600 гр., Греция</productName>
+        <price>2750</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>2250</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=99</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570c8df00cf6c_img_list.png</picture>
+        <param code="weight" name="Вес">500</param>
+      </offer>
+      <offer id="100" productId="100" quantity="100">
+        <categoryId>15</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Форель Атлантическая охлажденная 5-6 кг, Норвегия</name>
+        <productName>Форель Атлантическая охлажденная 5-6 кг, Норвегия</productName>
+        <price>5490</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>4500</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=100</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570c8fc7886bb_img_list.png</picture>
+        <param code="weight" name="Вес">6500</param>
+      </offer>
+      <offer id="77100" productId="100" quantity="100">
+        <categoryId>15</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Форель Атлантическая охлажденная 5-6 кг, Норвегия(цена за штуку)</name>
+        <productName>Форель Атлантическая охлажденная 5-6 кг, Норвегия</productName>
+        <price>35685</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>29250</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=100</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570c8fc7886bb_img_list.png</picture>
+        <param code="weight" name="Вес">6500</param>
+      </offer>
+      <offer id="101" productId="101" quantity="100">
+        <categoryId>15</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name> Дорадо Охлажденная вес 1000+ гр., Греция</name>
+        <productName> Дорадо Охлажденная вес 1000+ гр., Греция</productName>
+        <price>8000</price>
+        <productActivity>N</productActivity>
+        <purchasePrice>7000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=101</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570d5ddebee73_img_list.png</picture>
+      </offer>
+      <offer id="102" productId="102" quantity="100">
+        <categoryId>38</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Икра IKURA, уп. 200 гр.</name>
+        <productName>Икра IKURA, уп. 200 гр.</productName>
+        <price>18900</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>15000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=102</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570d6da67c7f0_img_list.png</picture>
+        <param code="weight" name="Вес">200</param>
+      </offer>
+      <offer id="77102" productId="102" quantity="100">
+        <categoryId>38</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Икра IKURA, уп. 200 гр.(цена за штуку)</name>
+        <productName>Икра IKURA, уп. 200 гр.</productName>
+        <price>3780</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>3000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=102</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570d6da67c7f0_img_list.png</picture>
+        <param code="weight" name="Вес">200</param>
+      </offer>
+      <offer id="103" productId="103" quantity="100">
+        <categoryId>41</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Вермишель из черного риса SanBONSAI </name>
+        <productName>Вермишель из черного риса SanBONSAI </productName>
+        <price>880</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>800</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=103</url>
+        <picture>http://www.kingfisher.kz/uploads/items/570dd98168016_img_list.png</picture>
+      </offer>
+      <offer id="104" productId="104" quantity="100">
+        <categoryId>41</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Вермишель из белого риса SanBONSAI</name>
+        <productName>Вермишель из белого риса SanBONSAI</productName>
+        <price>880</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>800</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=104</url>
+        <picture>http://www.kingfisher.kz/uploads/items/57100fa45a555_img_list.png</picture>
+      </offer>
+      <offer id="105" productId="105" quantity="100">
+        <categoryId>41</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Лапша рисовая AROY-D</name>
+        <productName>Лапша рисовая AROY-D</productName>
+        <price>880</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>800</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=105</url>
+        <picture>http://www.kingfisher.kz/uploads/items/571012582e5bb_img_list.png</picture>
+      </offer>
+      <offer id="106" productId="106" quantity="100">
+        <categoryId>41</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Вермишель рисовая HU-TEU, Sen-Soy</name>
+        <productName>Вермишель рисовая HU-TEU, Sen-Soy</productName>
+        <price>880</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>800</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=106</url>
+        <picture>http://www.kingfisher.kz/uploads/items/5710371e05ee8_img_list.png</picture>
+      </offer>
+      <offer id="107" productId="107" quantity="100">
+        <categoryId>41</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Лапша яичная EGG, Sen-Soy</name>
+        <productName>Лапша яичная EGG, Sen-Soy</productName>
+        <price>880</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>800</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=107</url>
+        <picture>http://www.kingfisher.kz/uploads/items/57103890ecd04_img_list.png</picture>
+      </offer>
+      <offer id="108" productId="108" quantity="100">
+        <categoryId>41</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Лапша рисовая FO-KHO, Sen-Soy</name>
+        <productName>Лапша рисовая FO-KHO, Sen-Soy</productName>
+        <price>880</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>800</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=108</url>
+        <picture>http://www.kingfisher.kz/uploads/items/571039c318cc8_img_list.png</picture>
+      </offer>
+      <offer id="109" productId="109" quantity="100">
+        <categoryId>41</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Вермишель фунчоза Sen-Soy</name>
+        <productName>Вермишель фунчоза Sen-Soy</productName>
+        <price>880</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>800</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=109</url>
+        <picture>http://www.kingfisher.kz/uploads/items/57103b7341335_img_list.png</picture>
+      </offer>
+      <offer id="110" productId="110" quantity="100">
+        <categoryId>41</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Лапша рисовая Sen-Soy</name>
+        <productName>Лапша рисовая Sen-Soy</productName>
+        <price>880</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>800</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=110</url>
+        <picture>http://www.kingfisher.kz/uploads/items/57103caa7b593_img_list.png</picture>
+      </offer>
+      <offer id="111" productId="111" quantity="100">
+        <categoryId>41</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Лапша SOBA, Sen-Soy</name>
+        <productName>Лапша SOBA, Sen-Soy</productName>
+        <price>880</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>800</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=111</url>
+        <picture>http://www.kingfisher.kz/uploads/items/57103d409a897_img_list.png</picture>
+      </offer>
+      <offer id="112" productId="112" quantity="100">
+        <categoryId>41</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Лапша UDON, Sen-Soy</name>
+        <productName>Лапша UDON, Sen-Soy</productName>
+        <price>880</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>800</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=112</url>
+        <picture>http://www.kingfisher.kz/uploads/items/57103ded8729a_img_list.png</picture>
+      </offer>
+      <offer id="113" productId="113" quantity="100">
+        <categoryId>41</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Лапша SOMEN, Sen-Soy</name>
+        <productName>Лапша SOMEN, Sen-Soy</productName>
+        <price>880</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>800</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=113</url>
+        <picture>http://www.kingfisher.kz/uploads/items/57103e8b72d4a_img_list.png</picture>
+      </offer>
+      <offer id="114" productId="114" quantity="20">
+        <categoryId>41</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Макароны DE CECCO</name>
+        <productName>Макароны DE CECCO</productName>
+        <price>700</price>
+        <productActivity>N</productActivity>
+        <purchasePrice>600</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=114</url>
+        <picture>http://www.kingfisher.kz/uploads/items/571040ff58e50_img_list.png</picture>
+      </offer>
+      <offer id="115" productId="115" quantity="20">
+        <categoryId>41</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Спагетти DE CECCO</name>
+        <productName>Спагетти DE CECCO</productName>
+        <price>700</price>
+        <productActivity>N</productActivity>
+        <purchasePrice>600</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=115</url>
+        <picture>http://www.kingfisher.kz/uploads/items/571041a05743d_img_list.png</picture>
+      </offer>
+      <offer id="116" productId="116" quantity="20">
+        <categoryId>18</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Соус рыбный AROY-D</name>
+        <productName>Соус рыбный AROY-D</productName>
+        <price>640</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>500</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=116</url>
+        <picture>http://www.kingfisher.kz/uploads/items/57104864db474_img_list.png</picture>
+      </offer>
+      <offer id="117" productId="117" quantity="50">
+        <categoryId>18</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Соевый соус Чин-Су с шампиньонами</name>
+        <productName>Соевый соус Чин-Су с шампиньонами</productName>
+        <price>465</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>300</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=117</url>
+        <picture>http://www.kingfisher.kz/uploads/items/5710496510c09_img_list.png</picture>
+      </offer>
+      <offer id="118" productId="118" quantity="50">
+        <categoryId>18</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Соевый соус Чин-Су оригинальный</name>
+        <productName>Соевый соус Чин-Су оригинальный</productName>
+        <price>465</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>300</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=118</url>
+        <picture>http://www.kingfisher.kz/uploads/items/57104a671bd9f_img_list.png</picture>
+      </offer>
+      <offer id="119" productId="119" quantity="50">
+        <categoryId>18</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Соевый соус ЯмЧан</name>
+        <productName>Соевый соус ЯмЧан</productName>
+        <price>500</price>
+        <productActivity>N</productActivity>
+        <purchasePrice>400</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=119</url>
+        <picture>http://www.kingfisher.kz/uploads/items/57104c6151e6f_img_list.png</picture>
+      </offer>
+      <offer id="120" productId="120" quantity="20">
+        <categoryId>18</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Масло кунжутное SEN SOY</name>
+        <productName>Масло кунжутное SEN SOY</productName>
+        <price>1700</price>
+        <productActivity>N</productActivity>
+        <purchasePrice>1000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=120</url>
+        <picture>http://www.kingfisher.kz/uploads/items/5710531474223_img_list.png</picture>
+      </offer>
+      <offer id="121" productId="121" quantity="50">
+        <categoryId>18</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Соус соевый классический SEN SOY</name>
+        <productName>Соус соевый классический SEN SOY</productName>
+        <price>350</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>250</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=121</url>
+        <picture>http://www.kingfisher.kz/uploads/items/5710543e619bb_img_list.png</picture>
+      </offer>
+      <offer id="122" productId="122" quantity="50">
+        <categoryId>18</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Соевый соус легкий  SEN SOY</name>
+        <productName>Соевый соус легкий  SEN SOY</productName>
+        <price>350</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>250</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=122</url>
+        <picture>http://www.kingfisher.kz/uploads/items/571055792a400_img_list.png</picture>
+      </offer>
+      <offer id="123" productId="123" quantity="50">
+        <categoryId>18</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Соевый соус для суши SEN SOY</name>
+        <productName>Соевый соус для суши SEN SOY</productName>
+        <price>350</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>250</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=123</url>
+        <picture>http://www.kingfisher.kz/uploads/items/5710561db0ffe_img_list.png</picture>
+      </offer>
+      <offer id="124" productId="124" quantity="50">
+        <categoryId>18</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Соевый соус пряный SEN SOY</name>
+        <productName>Соевый соус пряный SEN SOY</productName>
+        <price>350</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>250</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=124</url>
+        <picture>http://www.kingfisher.kz/uploads/items/571056c586c5d_img_list.png</picture>
+      </offer>
+      <offer id="125" productId="125" quantity="50">
+        <categoryId>18</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Соус Терияки SEN SOY</name>
+        <productName>Соус Терияки SEN SOY</productName>
+        <price>760</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>500</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=125</url>
+        <picture>http://www.kingfisher.kz/uploads/items/571063af9e904_img_list.png</picture>
+      </offer>
+      <offer id="126" productId="126" quantity="100">
+        <categoryId>19</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Креветка Бланшированная 31/40</name>
+        <productName>Креветка Бланшированная 31/40</productName>
+        <price>3900</price>
+        <productActivity>N</productActivity>
+        <purchasePrice>3000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=126</url>
+        <picture>http://www.kingfisher.kz/uploads/items/5710939de45f2_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="127" productId="127" quantity="100">
+        <categoryId>38</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Икра IKURA, упаковка 0,5 кг</name>
+        <productName>Икра IKURA, упаковка 0,5 кг</productName>
+        <price>10000</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>7000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=127</url>
+        <picture>http://www.kingfisher.kz/uploads/items/5715aef2d21ab_img_list.jpg</picture>
+        <param code="weight" name="Вес">500</param>
+      </offer>
+      <offer id="128" productId="128" quantity="100">
+        <categoryId>18</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Песто  Alla Genoveze</name>
+        <productName>Песто  Alla Genoveze</productName>
+        <price>1600</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>1000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=128</url>
+        <picture>http://www.kingfisher.kz/uploads/items/57171bfe449a7_img_list.png</picture>
+      </offer>
+      <offer id="129" productId="129" quantity="100">
+        <categoryId>43</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Творожный сыр Cremette</name>
+        <productName>Творожный сыр Cremette</productName>
+        <price>2600</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>2000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=129</url>
+        <picture>http://www.kingfisher.kz/uploads/items/129_img_list.jpg</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="130" productId="130" quantity="100">
+        <categoryId>44</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Масло Оливковое KRITSA Extra Virgin </name>
+        <productName>Масло Оливковое KRITSA Extra Virgin </productName>
+        <price>1800</price>
+        <productActivity>N</productActivity>
+        <purchasePrice>1500</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=130</url>
+        <picture>http://www.kingfisher.kz/uploads/items/571ec843abddb_img_list.png</picture>
+      </offer>
+      <offer id="131" productId="131" quantity="100">
+        <categoryId>18</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Соус Папричи остро-сладкий</name>
+        <productName>Соус Папричи остро-сладкий</productName>
+        <price>520</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>300</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=131</url>
+        <picture>http://www.kingfisher.kz/uploads/items/571ec9ba2de6b_img_list.png</picture>
+      </offer>
+      <offer id="132" productId="132" quantity="100">
+        <categoryId>18</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Соус Папричи кисло-сладкий</name>
+        <productName>Соус Папричи кисло-сладкий</productName>
+        <price>520</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>300</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=132</url>
+        <picture>http://www.kingfisher.kz/uploads/items/571eca8c396c6_img_list.png</picture>
+      </offer>
+      <offer id="133" productId="133" quantity="100">
+        <categoryId>18</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Соус Red Thai Sweet Chilly Sauce</name>
+        <productName>Соус Red Thai Sweet Chilly Sauce</productName>
+        <price>2300</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>1545</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=133</url>
+        <picture>http://www.kingfisher.kz/uploads/items/571ecb44ade65_img_list.png</picture>
+      </offer>
+      <offer id="134" productId="134" quantity="100">
+        <categoryId>18</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Уксус Рисовый SEN SOY</name>
+        <productName>Уксус Рисовый SEN SOY</productName>
+        <price>570</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>390</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=134</url>
+        <picture>http://www.kingfisher.kz/uploads/items/571ecc6f5d1e8_img_list.png</picture>
+      </offer>
+      <offer id="135" productId="135" quantity="100">
+        <categoryId>18</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Соус Терияки SEN SOY сладкий</name>
+        <productName>Соус Терияки SEN SOY сладкий</productName>
+        <price>760</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>524</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=135</url>
+        <picture>http://www.kingfisher.kz/uploads/items/571ecd3aec036_img_list.png</picture>
+      </offer>
+      <offer id="136" productId="136" quantity="100">
+        <categoryId>18</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Соус Васаби SEN SOY </name>
+        <productName>Соус Васаби SEN SOY </productName>
+        <price>380</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>272</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=136</url>
+        <picture>http://www.kingfisher.kz/uploads/items/571ece4cde4d4_img_list.png</picture>
+      </offer>
+      <offer id="137" productId="137" quantity="100">
+        <categoryId>18</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Соус TABASCO</name>
+        <productName>Соус TABASCO</productName>
+        <price>1700</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>1146</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=137</url>
+        <picture>http://www.kingfisher.kz/uploads/items/571ecedbc0737_img_list.png</picture>
+      </offer>
+      <offer id="138" productId="138" quantity="100">
+        <categoryId>18</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Соус соевый YAMASA мало соленый</name>
+        <productName>Соус соевый YAMASA мало соленый</productName>
+        <price>590</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>440</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=138</url>
+        <picture>http://www.kingfisher.kz/uploads/items/138_img_list.png</picture>
+      </offer>
+      <offer id="139" productId="139" quantity="100">
+        <categoryId>18</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Соевый соус YAMASA Original</name>
+        <productName>Соевый соус YAMASA Original</productName>
+        <price>590</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>440</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=139</url>
+        <picture>http://www.kingfisher.kz/uploads/items/571ed062d9ae2_img_list.png</picture>
+      </offer>
+      <offer id="140" productId="140" quantity="100">
+        <categoryId>18</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Соус Хрен-васаби SEN SOY</name>
+        <productName>Соус Хрен-васаби SEN SOY</productName>
+        <price>550</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>368</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=140</url>
+        <picture>http://www.kingfisher.kz/uploads/items/571ed10c484d8_img_list.png</picture>
+      </offer>
+      <offer id="141" productId="141" quantity="100">
+        <categoryId>18</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Соус Васаби жгучий</name>
+        <productName>Соус Васаби жгучий</productName>
+        <price>590</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>320</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=141</url>
+        <picture>http://www.kingfisher.kz/uploads/items/571ed26aea4a8_img_list.png</picture>
+      </offer>
+      <offer id="142" productId="142" quantity="100">
+        <categoryId>18</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Соус барбекю HUNT'S</name>
+        <productName>Соус барбекю HUNT'S</productName>
+        <price>1400</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>914</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=142</url>
+        <picture>http://www.kingfisher.kz/uploads/items/571ed38f7413e_img_list.png</picture>
+      </offer>
+      <offer id="143" productId="143" quantity="100">
+        <categoryId>18</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Маринад -барбекю Индана </name>
+        <productName>Маринад -барбекю Индана </productName>
+        <price>370</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>264</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=143</url>
+        <picture>http://www.kingfisher.kz/uploads/items/571ed43146ff4_img_list.png</picture>
+      </offer>
+      <offer id="144" productId="144" quantity="100">
+        <categoryId>18</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Соус соевый KIKKOMAN </name>
+        <productName>Соус соевый KIKKOMAN </productName>
+        <price>6800</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>4683</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=144</url>
+        <picture>http://www.kingfisher.kz/uploads/items/571ed5c04469f_img_list.png</picture>
+      </offer>
+      <offer id="145" productId="145" quantity="100">
+        <categoryId>11</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Мидии в раковине, Канада</name>
+        <productName>Мидии в раковине, Канада</productName>
+        <price>3800</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>3000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=145</url>
+        <picture>http://www.kingfisher.kz/uploads/items/573165f5d3b07_img_list.jpg</picture>
+      </offer>
+      <offer id="146" productId="146" quantity="100">
+        <categoryId>30</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Лосось Малосольный </name>
+        <productName>Лосось Малосольный </productName>
+        <price>6800</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>5000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=146</url>
+        <picture>http://www.kingfisher.kz/uploads/items/57510d43e5ae2_img_list.jpg</picture>
+      </offer>
+      <offer id="147" productId="147" quantity="100">
+        <categoryId>30</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Слайсы из Малосольного Лосося</name>
+        <productName>Слайсы из Малосольного Лосося</productName>
+        <price>8800</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>7000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=147</url>
+        <picture>http://www.kingfisher.kz/uploads/items/57510ec8e6d97_img_list.jpg</picture>
+      </offer>
+      <offer id="148" productId="148" quantity="1000">
+        <categoryId>31</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Щупальца Кальмара </name>
+        <productName>Щупальца Кальмара </productName>
+        <price>1600</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>1300</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=148</url>
+        <picture>http://www.kingfisher.kz/uploads/items/57b5a38e52724_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="149" productId="149" quantity="1000">
+        <categoryId>19</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Лангустины в панцире без головы, размер 30 - 50</name>
+        <productName>Лангустины в панцире без головы, размер 30 - 50</productName>
+        <price>5200</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>5000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=149</url>
+        <picture>http://www.kingfisher.kz/uploads/items/57b5a86251388_img_list.png</picture>
+        <param code="weight" name="Вес">2000</param>
+      </offer>
+      <offer id="77149" productId="149" quantity="1000">
+        <categoryId>19</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Лангустины в панцире без головы, размер 30 - 50(цена за штуку)</name>
+        <productName>Лангустины в панцире без головы, размер 30 - 50</productName>
+        <price>10400</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>10000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=149</url>
+        <picture>http://www.kingfisher.kz/uploads/items/57b5a86251388_img_list.png</picture>
+        <param code="weight" name="Вес">2000</param>
+      </offer>
+      <offer id="150" productId="150" quantity="1000">
+        <categoryId>19</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Лангустины в панцире с головой, размер 10-20 </name>
+        <productName>Лангустины в панцире с головой, размер 10-20 </productName>
+        <price>5950</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>5000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=150</url>
+        <picture>http://www.kingfisher.kz/uploads/items/57b5aae226cf3_img_list.png</picture>
+        <param code="weight" name="Вес">2000</param>
+      </offer>
+      <offer id="77150" productId="150" quantity="1000">
+        <categoryId>19</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Лангустины в панцире с головой, размер 10-20 (цена за штуку)</name>
+        <productName>Лангустины в панцире с головой, размер 10-20 </productName>
+        <price>11900</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>10000</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=150</url>
+        <picture>http://www.kingfisher.kz/uploads/items/57b5aae226cf3_img_list.png</picture>
+        <param code="weight" name="Вес">2000</param>
+      </offer>
+      <offer id="151" productId="151" quantity="1000">
+        <categoryId>16</categoryId>
+        <unit code="kg" name="Килограмм" sym="кг"/>
+        <name>Мойва атлантическая</name>
+        <productName>Мойва атлантическая</productName>
+        <price>1200</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>500</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=151</url>
+        <picture>http://www.kingfisher.kz/uploads/items/57b6b09403301_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+      <offer id="77151" productId="151" quantity="1000">
+        <categoryId>16</categoryId>
+        <unit code="pc" name="Штука" sym="шт."/>
+        <name>Мойва атлантическая(цена за штуку)</name>
+        <productName>Мойва атлантическая</productName>
+        <price>1200</price>
+        <productActivity>Y</productActivity>
+        <purchasePrice>500</purchasePrice>
+        <url>http://www.kingfisher.kz/item.html?id=151</url>
+        <picture>http://www.kingfisher.kz/uploads/items/57b6b09403301_img_list.png</picture>
+        <param code="weight" name="Вес">1000</param>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>

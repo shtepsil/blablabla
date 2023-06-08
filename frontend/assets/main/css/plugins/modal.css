@@ -1,0 +1,66 @@
+.overlay-modal {
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(73, 73, 73, 0.5);
+    text-align: center;
+    overflow: auto
+}
+.overlay-modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    width: 0;
+    height: 100%
+}
+.overlay-modal .window {
+    position: relative !important;
+    z-index: 99999;
+    display: none;
+    text-align: left;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-right: 0;
+    margin-bottom: 10px
+}
+.overlay-modal .window.active {
+    display: inline-block !important
+}
+.overlay-modal .window[data-winmultiple] {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -khtml-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+.overlay-modal .window[data-winmultiple].active {
+    display: block !important
+}
+.overlay-modal .window.focus {
+    z-index: 9999 !important;
+    -webkit-box-shadow: 0 0 5px #ccc;
+    -o-box-shadow: 0 0 5px #ccc;
+    -moz-box-shadow: 0 0 5px #ccc;
+    -khtml-box-shadow: 0 0 5px #ccc;
+    box-shadow: 0 0 5px #ccc
+}
+/*.popup {*/
+/*    top: auto !important;*/
+/*    left: auto !important*/
+/*}*/
+.popup .popupDescription {
+    font: bold 1.6em/1.2em "Proxima Nova", sans-serif;
+    color: #ff6b6b;
+    background-color: #ffe9e9;
+    border-radius: 4px;
+    padding: 14px;
+    margin-bottom: 10px;
+}
